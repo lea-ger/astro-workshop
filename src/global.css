@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.transition-fade {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.btn {
+    @apply bg-linear-to-l from-violet-700 to-fuchsia-700 text-xl text-white font-bold py-2 px-4 rounded-full;
+}
+
+h1 {
+    @apply text-6xl font-bold text-center mb-8 mt-2;
+}
+
+h2 {
+    @apply text-4xl font-semibold text-center mb-6 mt-2;
+}
+
+h3 {
+    @apply text-3xl font-semibold text-center mb-4 mt-2;
+}
+
+p {
+    @apply text-xl text-center mb-4;
+}
+
+ul {
+    @apply list-disc list-inside mb-4;
+}
+
+ol {
+    @apply list-decimal list-inside mb-4;
+}
+
+li {
+    @apply text-xl text-left mb-2;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
