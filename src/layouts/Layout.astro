@@ -1,9 +1,15 @@
 ---
 import "../global.css";
+import {Icon} from 'astro-icon/components'
+import {ClientRouter} from "astro:transitions";
 
-const {prev = "/", next = "/"} = Astro.props;
-
-const message = 'lel';
+let {prev = "/", next = "/", slideId = null} = Astro.props;
+if (!slideId) {
+  prev = Astro.props.frontmatter.prev
+  next = Astro.props.frontmatter.next
+  slideId = Astro.props.frontmatter.slideId
+}
+console.log(Astro.props)
 ---
 
 <!doctype html>
@@ -13,6 +19,7 @@ const message = 'lel';
     <meta name="viewport" content="width=device-width"/>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
     <meta name="generator" content={Astro.generator}/>
+    <ClientRouter/>
     <title>Astro Workshop</title>
 </head>
 <body class="bg-gradient-to-br from-black via-80% via-purple-950 to-fuchsia-900
@@ -20,42 +27,34 @@ text-white flex items-center justify-center h-screen
 border-fuchsia-700 border-20 rounded-3xl shadow-2xl
 "
 >
-<main class="w-full max-w-4xl p-8 transition-fade">
+<main class="w-full max-w-7xl p-8 transition-fade">
     <slot/>
 </main>
 
-<div class="absolute bottom-20 left-20">
-    <a href={prev} data-fade id="prev" class="btn cursor-pointer">←</a>
+<div class="fixed bottom-20 left-20">
+    <a href={prev} data-fade id="prev" class="btn cursor-pointer">
+        <Icon class="inline-block" name="mingcute:left-line"/>
+    </a>
 </div>
-<div class="absolute bottom-20 right-20">
-    <a href={next} data-fade id="next" class="btn cursor-pointer">→</a>
+{slideId &&
+        <div class="fixed font-mono bottom-20 left-1/2 -translate-x-1/2 text-xl text-center">
+            #{slideId}
+        </div>
+}
+<div class="fixed bottom-20 right-20">
+    <a href={next} data-fade id="next" class="btn cursor-pointer">
+        <Icon class="inline-block" name="mingcute:right-line"/>
+    </a>
 </div>
 
 <script>
-  function navigateWithFade(url) {
-    document.body.classList.add("fade-out");
-    setTimeout(() => {
-      window.location.href = url;
-    }, 300); // Dauer der CSS-Animation
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("a[data-fade]").forEach(link => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        const url = link.getAttribute("href");
-        navigateWithFade(url);
-      });
-    });
-
-    // Tastennavigation
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "ArrowRight") {
-        navigateWithFade(document.querySelector("#next").getAttribute("href"));
-      } else if (e.key === "ArrowLeft") {
-        navigateWithFade(document.querySelector("#prev").getAttribute("href"));
-      }
-    });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") {
+      window.location.href = document.querySelector("#next").href;
+    }
+    if (e.key === "ArrowLeft") {
+      window.location.href = document.querySelector("#prev").href;
+    }
   });
 </script>
 </body>

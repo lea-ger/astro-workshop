@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout next="/" prev="/toc" slideId="1">
+    <h2>Link zur Dokumentation:</h2>
+    <p>
+        <a href="https://docs.astro.build/de/" target="_blank" rel="noopener noreferrer">
+            https://docs.astro.build/de/
+        </a>
+    </p>
+    <iframe
+        src="https://docs.astro.build/en/guides/markdown-content/"
+        class="w-full h-[75vh]"
+        frameborder="0"
+        allowfullscreen
+    />
+</Layout>
