@@ -9,17 +9,16 @@ if (!slideId) {
   next = Astro.props.frontmatter.next
   slideId = Astro.props.frontmatter.slideId
 }
-console.log(Astro.props)
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" transition:name="root" transition:animate="none">
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width"/>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
     <meta name="generator" content={Astro.generator}/>
-    <ClientRouter/>
+    <ClientRouter />
     <title>Astro Workshop</title>
 </head>
 <body class="bg-gradient-to-br from-black via-80% via-purple-950 to-fuchsia-900
@@ -27,14 +26,14 @@ text-white flex items-center justify-center h-screen
 border-fuchsia-700 border-20 rounded-3xl shadow-2xl
 "
 >
-<main class="w-full max-w-7xl p-8 transition-fade">
+<main class="w-full max-w-7xl p-8 transition-fade" transition:animate="slide">
     <slot/>
 </main>
 
 <div class="fixed bottom-20 left-20">
-    <a href={prev} data-fade id="prev" class="btn cursor-pointer">
+    <button id="prev" data-href={prev} class="btn cursor-pointer">
         <Icon class="inline-block" name="mingcute:left-line"/>
-    </a>
+    </button>
 </div>
 {slideId &&
         <div class="fixed font-mono bottom-20 left-1/2 -translate-x-1/2 text-xl text-center">
@@ -42,27 +41,39 @@ border-fuchsia-700 border-20 rounded-3xl shadow-2xl
         </div>
 }
 <div class="fixed bottom-20 right-20">
-    <a href={next} data-fade id="next" class="btn cursor-pointer">
+    <button id="next" data-href={next} class="btn cursor-pointer">
         <Icon class="inline-block" name="mingcute:right-line"/>
-    </a>
+    </button>
 </div>
 
 <script>
+  import { navigate } from "astro:transitions/client";
+
   let currentStep = 0;
 
   document.addEventListener("click", (e) => {
-    if (e.target.closest("a") || e.target.closest("button")) return;
+      if (e.target.closest("a") || e.target.closest("button")) return;
 
-    nextStep()
+      nextStep()
   });
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowRight") {
-      nextStep()
-    }
-    if (e.key === "ArrowLeft") {
-      previousStep()
-    }
+      if (e.key === "ArrowRight") {
+          nextStep()
+      }
+      if (e.key === "ArrowLeft") {
+          previousStep()
+      }
+  });
+
+  document.addEventListener('astro:page-load', () => {
+      document.querySelector("#next").addEventListener("click", (e) => {
+          console.log("next clicked");
+          nextStep();
+      });
+      document.querySelector("#prev").addEventListener("click", (e) => {
+          previousStep();
+      });
   });
 
   function previousStep() {
@@ -74,7 +85,10 @@ border-fuchsia-700 border-20 rounded-3xl shadow-2xl
       steps[currentStep].classList.remove("visible");
     } else {
       const prevButton = document.querySelector("#prev");
-      if (prevButton) window.location.href = prevButton.href;
+      if (prevButton) {
+          currentStep = 0;
+          navigate(prevButton.getAttribute("data-href"));
+      }
     }
   }
 
@@ -87,7 +101,10 @@ border-fuchsia-700 border-20 rounded-3xl shadow-2xl
       currentStep++;
     } else {
       const nextButton = document.querySelector("#next");
-      if (nextButton) window.location.href = nextButton.href;
+      if (nextButton) {
+          currentStep = 0;
+          navigate(nextButton.getAttribute("data-href"));
+      }
     }
   }
 </script>
