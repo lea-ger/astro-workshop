@@ -39,3 +39,11 @@ ol {
 li {
     @apply text-xl text-left mb-2;
 }
+
+[data-step] {
+    @apply opacity-0 transition-opacity duration-500;
+}
+
+[data-step].visible {
+    @apply opacity-100;
+}

@@ -48,14 +48,48 @@ border-fuchsia-700 border-20 rounded-3xl shadow-2xl
 </div>
 
 <script>
+  let currentStep = 0;
+
+  document.addEventListener("click", (e) => {
+    if (e.target.closest("a") || e.target.closest("button")) return;
+
+    nextStep()
+  });
+
   document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") {
-      window.location.href = document.querySelector("#next").href;
+      nextStep()
     }
     if (e.key === "ArrowLeft") {
-      window.location.href = document.querySelector("#prev").href;
+      previousStep()
     }
   });
+
+  function previousStep() {
+    const steps = [...document.querySelectorAll("[data-step]")].sort(
+      (a, b) => a.dataset.step - b.dataset.step
+    );
+    if (currentStep > 0) {
+      currentStep--;
+      steps[currentStep].classList.remove("visible");
+    } else {
+      const prevButton = document.querySelector("#prev");
+      if (prevButton) window.location.href = prevButton.href;
+    }
+  }
+
+  function nextStep() {
+    const steps = [...document.querySelectorAll("[data-step]")].sort(
+      (a, b) => a.dataset.step - b.dataset.step
+    );
+    if (currentStep < steps.length) {
+      steps[currentStep].classList.add("visible");
+      currentStep++;
+    } else {
+      const nextButton = document.querySelector("#next");
+      if (nextButton) window.location.href = nextButton.href;
+    }
+  }
 </script>
 </body>
 </html>
