@@ -1,0 +1,68 @@
+---
+import {Image} from "astro:assets";
+import Layout from "@/layouts/Layout.astro";
+import hugoLogo from "@/assets/hugo-logo.svg";
+import jekyllLogo from "@/assets/jekyll-logo-black.svg";
+import eleventyLogo from "@/assets/11ty-logo.svg";
+import gatsbyLogo from "@/assets/gatsby-logo.svg";
+import nextLogo from "@/assets/next-logo.svg";
+---
+
+<Layout next="/ueber-astro/showcase" prev="/allgemeines/static-sides" slideId="3">
+    <h1>Tools für SSG</h1>
+
+    <h2 data-step="1">"Dedicated" static site generators</h2>
+    <ul>
+        <li class="!text-xl flex items-center gap-4 my-4" data-step="2">
+            <div class="flex flex-col items-center gap-2 w-40">
+                <Image src={hugoLogo} alt="Hugo Logo" width={100} height={60}/>
+                <strong>Hugo</strong>
+            </div>
+            Ein Go-basiertes SSG-Framework, das für seine Geschwindigkeit bekannt ist.
+        </li>
+        <li class="!text-xl flex items-center gap-4 my-4" data-step="3">
+            <div class="flex flex-col items-center gap-2 w-40">
+                <Image class="bg-white" src={jekyllLogo} alt="Jekyll Logo" width={100} height={60}/>
+                <strong>Jekyll</strong>
+            </div>
+            Ein Ruby-basiertes SSG, das oft für GitHub Pages verwendet wird.
+        </li>
+        <li class="!text-xl flex items-center gap-4 my-4" data-step="4">
+            <div class="flex flex-col items-center gap-2 w-40">
+                <Image src={eleventyLogo} alt="11ty Logo" width={100} height={60}/>
+                <strong>11ty</strong>
+            </div>
+            Ein JS-basiertes SSG, das viele Template-Sprachen unterstützt.
+        </li>
+    </ul>
+    <h2 data-step="5">Hybride Lösungen</h2>
+    <ul>
+        <li class="!text-xl flex items-center gap-4 my-4" data-step="6">
+            <div class="flex flex-col items-center gap-2 w-40">
+                <Image class="bg-white" src={gatsbyLogo} alt="Gatsby Logo" width={100} height={60}/>
+                <strong>Gatsby</strong>
+            </div>
+            Ein React-basiertes Tool mit "DSG"-Funktion (Deferred Static Generation), das dynamische Inhalte
+            unterstützt.
+        </li>
+        <li class="!text-xl flex items-center gap-4 my-4" data-step="7">
+
+            <div class="flex flex-col items-center gap-2 w-40">
+                <Image src={nextLogo} alt="Next.js Logo" width={100} height={60}/>
+                <strong>Next.js</strong>
+            </div>
+            <div class="">
+                Ein React-Server-Framework, das sowohl SSG als auch SSR unterstützt.
+                <ul class="ml-6 mt-2 list-style-[circle]" data-step="8">
+                    <li class="flex items-center gap-4">
+                        <strong>Nuxt.js:</strong> Vue.js-Alternative
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <strong>SvelteKit:</strong> Svelte-Alternative
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+    </ul>
+</Layout>
