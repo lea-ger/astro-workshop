@@ -1,0 +1,17 @@
+---
+import Layout from '@/layouts/WorkshopLayout.astro';
+import Hero from '@/components/Hero.astro';
+import PromoBanner from '@/components/PromoBanner.astro';
+import ProductList from '@/components/ProductList.astro';
+---
+
+<Layout>
+    <Hero />
+    <PromoBanner />
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">Unsere Produkte</h2>
+            <ProductList />
+        </div>
+    </section>
+</Layout>

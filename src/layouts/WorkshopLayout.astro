@@ -1,0 +1,30 @@
+---
+import "@/global.css";
+import { Image } from "astro:assets";
+import Logo from '@/assets/work-shop-logo.jpg'
+---
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work-Shop</title>
+    <link rel="stylesheet" href="/dist/style.css" />
+</head>
+<body class="font-sans text-gray-900">
+<header class="bg-[#eeebe5] shadow">
+    <div class="container mx-auto px-4 py-4">
+        <a href="/" class="text-xl font-bold">
+            <Image src={Logo} alt="Work-Shop Logo" width={150} height={50} class="inline-block" />
+        </a>
+    </div>
+</header>
+<main>
+    <slot />
+</main>
+<footer class="bg-gray-800 text-gray-300 py-8 mt-16">
+    <div class="container mx-auto px-4 text-center">
+        © 2025 Work-Shop. Alle Rechte vorbehalten.
+    </div>
+</footer>
+</body>
+</html>

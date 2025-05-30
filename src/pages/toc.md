@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Layout.astro
+layout: @/layouts/Layout.astro
 title: Markdown-Seiten
 author: Leander Gerwing
 next: /allgemeines/webframework-paradigmen
@@ -8,6 +8,7 @@ slideId: toc
 ---
 
 # Inhalt
+
 - [Allgemeines](/allgemeines)
 - [Über Astro](/ueber-astro)
 - [How to Astro](/how-to-astro)
