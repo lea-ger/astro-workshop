@@ -29,16 +29,8 @@ All commands are run from the root of the project, from a terminal:
 ### Schritte:
 
 1. Öffne `src/components/Hero.astro` und verschaffe dir einen Überblick über den Code.
-2. Ersetze das `<img src="/assets/hero.jpg" ...>` durch das `<Image />`-Component von Astro:
-
-   ```astro
-   ---
-   import { Image } from 'astro:assets';
-   import heroImage from '@/assets/hero.jpg';
-   ---
-   <Image src={heroImage} alt="Hero" width={1200} height={600} />
-   ```
-3. Stelle sicher, dass das Bild responsive gerendert wird (breitenabhängig skaliert).
+2. Ersetze das `<img src="/assets/hero.jpg" ...>` durch das `<Image />`-Component von Astro.
+3. Stelle sicher, dass das Bild optimiert wird. Du kannst die `srcset`-Attribute nutzen, um verschiedene Bildgrößen zu definieren.
 
 ---
 
@@ -53,37 +45,18 @@ All commands are run from the root of the project, from a terminal:
 
 ### Schritte:
 
-1. Definiere in `src/content/config.ts` die Collection `products` mit einem passenden Schema:
-
-   ```ts
-   import { defineCollection, z } from 'astro:content';
-
-   ```
-2. Kopiere die Daten aus `products.json` als Markdown- oder JSON-Content-Dateien in `src/content/products/` (eine Datei
-   pro Produkt, z. B. `1.json`).
-3. Öffne `src/components/ProductList.astro` und ersetze den JSON-Import durch `getCollection`:
-
-   ```astro
-   ---
-   import { getCollection } from 'astro:content';
-   const products = await getCollection('products');
-   ---
-   <div class="grid ...">
-     {products.map(p => (
-       <article>...
-         <a href={`/products/${p.slug}`}>{p.data.title}</a>
-         <p>€{p.data.price}</p>
-       </article>
-     ))}
-   </div>
-   ```
-4. Stelle sicher, dass Vorschaubild, Titel und Preis angezeigt werden.
+1. Definiere in `src/content/config.ts` die Collection `products`. Du kannst auch mit Zod ein passendes Schema erstellen
+2. Öffne `src/components/ProductList.astro` und ersetze das leere Array mit der Collection (`getCollection`).
+3. Stelle sicher, dass Vorschaubild, Titel und Preis angezeigt werden.
 
 ---
 
 ## 📦 Aufgabe 3: Dynamische Produktseiten & Static Paths
 
 **Ziel:** Nutze die Collection, um Static Paths zu erstellen und Produktseiten mit `getEntryBySlug` zu befüllen.
+
+### Vorgaben:
+* Eine Datei unter `src/pages/products/[slug].astro` existiert bereits.
 
 ### Schritte:
 
