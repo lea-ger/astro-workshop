@@ -2,12 +2,14 @@
 layout: ../../layouts/SlideLayout.astro
 title: Markdown-Seiten
 author: Leander Gerwing
-next: /allgemeines/webframework-paradigmen
-prev: /
-slideId: 10
+next: /how-to-astro/routing
+prev: /how-to-astro
+slideId: 9
 ---
 
-```text
+# Dateistruktur eines Astro-Projekts
+
+```text 
 /
 ├── public/
 │   └── favicon.svg
@@ -18,4 +20,14 @@ slideId: 10
 │       └── how-to-astro/
 │            └── dateistruktur.md
 └── package.json
-```
+``` 
+
+### Wichtige Verzeichnisse {#custom-id}
+
+- **public/** - Dateien werden unverändert kopiert
+- **src/pages/** - Definiert Routen und Seiten
+- **src/components/** - Wiederverwendbare UI-Teile
+- **src/layouts/** - Seitenstrukturen
+- **src/content/** - Für Content Collections
+
+Ähnlich wie bei anderen modernen Frameworks (Next.js, SvelteKit) folgt Astro Konventionen statt Konfiguration.

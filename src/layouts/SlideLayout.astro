@@ -5,9 +5,9 @@ import {ClientRouter} from "astro:transitions";
 
 let {prev = "/", next = "/", slideId = null} = Astro.props;
 if (!slideId) {
-  prev = Astro.props.frontmatter.prev
-  next = Astro.props.frontmatter.next
-  slideId = Astro.props.frontmatter.slideId
+  prev = Astro.props.frontmatter?.prev
+  next = Astro.props.frontmatter?.next
+  slideId = Astro.props.frontmatter?.slideId
 }
 ---
 
@@ -26,7 +26,7 @@ text-white flex items-center justify-center h-screen
 border-fuchsia-700 border-20 rounded-3xl shadow-2xl
 "
 >
-<main class="w-full max-w-7xl p-8 transition-fade" transition:animate="slide">
+<main class="w-full xl:max-w-2/3 p-8 transition-fade" transition:animate="slide">
     <slot/>
 </main>
 

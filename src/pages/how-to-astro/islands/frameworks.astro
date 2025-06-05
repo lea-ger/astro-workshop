@@ -1,0 +1,81 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+import { Code } from 'astro:components';
+---
+
+<Layout next="/how-to-astro/islands/client-directives" prev="/how-to-astro/islands" slideId="14.1">
+    <h1>Andere Frameworks verwenden</h1>
+
+    <p>Astro ermöglicht die nahtlose Integration von UI-Komponenten aus <strong>React, Vue, Svelte, Solid</strong> und anderen Frameworks.</p>
+
+    <div class="grid grid-cols-2 gap-8 mt-8">
+        <div>
+            <h3>Integration einrichten</h3>
+            <Code code={`
+// astro.config.mjs
+import { defineConfig } from 'astro/config';
+import react from '@astrojs/react';
+import vue from '@astrojs/vue';
+import svelte from '@astrojs/svelte';
+import solid from '@astrojs/solid-js';
+
+export default defineConfig({
+  integrations: [
+    react(), // React-Komponenten aktivieren
+    vue(),   // Vue-Komponenten aktivieren
+    svelte(), // Svelte-Komponenten aktivieren
+    solid()  // Solid-Komponenten aktivieren
+  ]
+});
+            `} lang="javascript" />
+            
+            <h3 class="mt-6">Installation</h3>
+            <Code code={`
+# React-Integration
+npm install @astrojs/react react react-dom
+
+# Vue-Integration
+npm install @astrojs/vue vue
+
+# Svelte-Integration
+npm install @astrojs/svelte svelte
+
+# Solid-Integration
+npm install @astrojs/solid-js solid-js
+            `} lang="bash" />
+        </div>
+        <div>
+            <h3>Verwendung in Astro-Dateien</h3>
+            <Code code={`
+---
+// Komponenten aus verschiedenen Frameworks importieren
+import ReactCounter from '../components/ReactCounter.jsx';
+import VueToggle from '../components/VueToggle.vue';
+import SvelteCard from '../components/SvelteCard.svelte';
+import SolidButton from '../components/SolidButton.jsx';
+---
+
+<div class="mixed-frameworks">
+  <!-- Jedes Framework mit eigener Hydration-Strategie -->
+  <ReactCounter client:load />
+  
+  <VueToggle client:visible />
+  
+  <SvelteCard client:idle />
+  
+  <SolidButton client:only="solid" />
+</div>
+            `} lang="astro" />
+            
+            <h3 class="mt-6">Vorteile des Multi-Framework-Ansatzes</h3>
+            <ul>
+                <li><strong>Beste Komponenten:</strong> Nutze die besten Bibliotheken aus jedem Ökosystem</li>
+                <li><strong>Migration:</strong> Schrittweise Migration bestehender Anwendungen</li>
+                <li><strong>Experimentieren:</strong> Neue Frameworks ausprobieren ohne komplette Umstellung</li>
+                <li><strong>Spezialisierung:</strong> Jedes Framework für seine Stärken einsetzen</li>
+            </ul>
+            
+            <p class="mt-4">Dieser Ansatz ist einzigartig für Astro - die meisten anderen Meta-Frameworks sind auf ein einzelnes UI-Framework beschränkt.</p>
+        </div>
+    </div>
+</Layout>

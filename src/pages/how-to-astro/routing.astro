@@ -1,0 +1,56 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+import { Code } from 'astro:components';
+---
+
+<Layout next="/how-to-astro/routing/markdown-pages" prev="/how-to-astro/filesystem" slideId="10">
+    <h1>Routing</h1>
+
+    <p>Astro verwendet <strong>dateibasiertes Routing</strong> - jede Datei in deinem <code>src/pages</code>-Verzeichnis wird automatisch zu einer Route.</p>
+
+    <div class="grid grid-cols-2 gap-8 mt-8">
+        <div>
+            <h3>Dateistruktur zu URLs</h3>
+            <Code code={`
+src/pages/
+├── index.astro        → /
+├── about.astro        → /about
+├── blog/
+│   ├── index.astro    → /blog
+│   └── post-1.astro   → /blog/post-1
+└── [...slug].astro    → /* (catch-all)
+            `} lang="text" />
+            
+            <h3 class="mt-6">Dynamische Routen</h3>
+            <Code code={`
+// src/pages/blog/[slug].astro
+export function getStaticPaths() {
+  return [
+    { params: { slug: 'post-1' } },
+    { params: { slug: 'post-2' } }
+  ];
+}
+
+const { slug } = Astro.params;
+            `} lang="typescript" />
+        </div>
+        <div>
+            <h3>Unterstützte Dateitypen</h3>
+            <ul>
+                <li><strong>.astro</strong> - Astro-Komponenten</li>
+                <li><strong>.md, .mdx</strong> - Markdown/MDX-Dateien</li>
+                <li><strong>.html</strong> - HTML-Dateien</li>
+                <li><strong>.js, .ts</strong> - API-Endpunkte</li>
+            </ul>
+            
+            <h3 class="mt-6">Routing-Priorität</h3>
+            <ol>
+                <li>Exakte statische Routen (<code>/about</code>)</li>
+                <li>Benannte dynamische Routen (<code>/blog/[slug]</code>)</li>
+                <li>Rest-Parameter Routen (<code>/[...slug]</code>)</li>
+            </ol>
+            
+            <p class="mt-4">Ähnlich wie bei Next.js, aber mit einigen Unterschieden in der Syntax und Funktionalität.</p>
+        </div>
+    </div>
+</Layout>

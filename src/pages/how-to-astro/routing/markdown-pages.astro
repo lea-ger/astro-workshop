@@ -1,0 +1,62 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+import { Code } from 'astro:components';
+---
+
+<Layout next="/how-to-astro/routing/endpoints" prev="/how-to-astro/routing" slideId="11">
+    <h1>Markdown Pages</h1>
+
+    <p>Astro unterstützt <strong>Markdown (.md) und MDX (.mdx)</strong> Dateien direkt im <code>pages/</code>-Verzeichnis für inhaltsreiche Seiten.</p>
+
+    <div class="grid grid-cols-2 gap-8 mt-8">
+        <div>
+            <h3>Markdown-Datei Beispiel</h3>
+            <Code code={`
+---
+layout: ../../layouts/BlogLayout.astro
+title: Mein erster Blog-Post
+author: Astro Fan
+date: 2023-05-01
+---
+
+# Willkommen zu meinem Blog
+
+Dies ist mein **erster** Blog-Post mit Astro.
+Markdown macht das Schreiben einfach!
+
+## Überschrift 2
+
+- Listen
+- sind
+- einfach
+            `} lang="markdown" />
+            
+            <p class="mt-4">Die Frontmatter-Abschnitte (zwischen den "---") ähneln denen in anderen Static Site Generators wie Hugo oder Jekyll.</p>
+        </div>
+        <div>
+            <h3>Funktionen</h3>
+            <ul>
+                <li><strong>Frontmatter:</strong> YAML-Metadaten am Anfang der Datei</li>
+                <li><strong>Layouts:</strong> Wiederverwendbare Seitenstrukturen</li>
+                <li><strong>Automatisches Routing:</strong> <code>/posts/hello.md</code> → <code>/posts/hello</code></li>
+                <li><strong>Markdown-Erweiterungen:</strong> GFM, Smartypants, Remark/Rehype-Plugins</li>
+            </ul>
+            
+            <h3 class="mt-6">MDX-Unterstützung</h3>
+            <Code code={`
+---
+layout: ../../layouts/BlogLayout.astro
+title: MDX-Beispiel
+---
+import Counter from '../../components/Counter';
+
+# Interaktiver Inhalt
+
+<Counter client:load />
+
+Normale **Markdown**-Syntax funktioniert auch.
+            `} lang="markdown" />
+            <p class="mt-2">Mit MDX kannst du Komponenten direkt in Markdown einbetten!</p>
+        </div>
+    </div>
+</Layout>

@@ -1,0 +1,71 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+import { Code } from 'astro:components';
+---
+
+<Layout next="/how-to-astro/islands" prev="/how-to-astro/routing/endpoints" slideId="13">
+    <h1>Astro Components</h1>
+
+    <p>Astro-Komponenten (<code>.astro</code> Dateien) sind die Grundbausteine einer Astro-Anwendung - sie kombinieren HTML-Templating mit JavaScript.</p>
+
+    <div class="grid grid-cols-2 gap-8 mt-8">
+        <div>
+            <h3>Grundstruktur einer Komponente</h3>
+            <Code code={`
+---
+// Komponenten-Skript (wird nur auf dem Server ausgeführt)
+import OtherComponent from './OtherComponent.astro';
+import { formatDate } from '../utils';
+
+// Props empfangen
+const { title, date } = Astro.props;
+
+// Daten abrufen, verarbeiten, etc.
+const formattedDate = formatDate(date);
+---
+<!-- Komponenten-Template (HTML mit Expressions) -->
+<div class="card">
+  <h2>{title}</h2>
+  <p>Datum: {formattedDate}</p>
+  <OtherComponent />
+  <slot /> <!-- Platzhalter für Child-Content -->
+</div>
+
+<style>
+  /* Komponenten-spezifisches, automatisch isoliertes CSS */
+  .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+</style>
+            `} lang="astro" />
+        </div>
+        <div>
+            <h3>Besonderheiten</h3>
+            <ul>
+                <li><strong>Serverseitig:</strong> Komponenten werden auf dem Server gerendert</li>
+                <li><strong>Zero-JS:</strong> Standardmäßig wird kein JavaScript an den Client gesendet</li>
+                <li><strong>Scoped CSS:</strong> Styles sind automatisch auf die Komponente beschränkt</li>
+                <li><strong>Slots:</strong> Flexible Komposition mit <code>&lt;slot /&gt;</code> und benannten Slots</li>
+                <li><strong>Hydration:</strong> Optional mit <code>client:</code> Direktiven</li>
+            </ul>
+            
+            <h3 class="mt-6">Dynamische HTML</h3>
+            <Code code={`
+---
+const items = ["Eins", "Zwei", "Drei"];
+---
+<ul>
+  {items.map(item => (
+    <li>{item}</li>
+  ))}
+</ul>
+
+{true && <p>Wird angezeigt</p>}
+{false && <p>Wird nicht angezeigt</p>}
+            `} lang="astro" />
+            
+            <p class="mt-4">Ähnlich zu JSX in React, aber mit vollständigem HTML-Support und ohne Client-seitiges Rendering.</p>
+        </div>
+    </div>
+</Layout>

@@ -1,0 +1,78 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+import { Code } from 'astro:components';
+---
+
+<Layout next="/how-to-astro/components" prev="/how-to-astro/routing/markdown-pages" slideId="12">
+    <h1>API Endpoints</h1>
+
+    <p>Astro ermöglicht die Erstellung von <strong>API-Endpunkten</strong> mit JavaScript oder TypeScript-Dateien im <code>pages/</code>-Verzeichnis.</p>
+
+    <div class="grid grid-cols-2 gap-8 mt-8">
+        <div>
+            <h3>Einfacher API-Endpunkt</h3>
+            <Code code={`
+// src/pages/api/hello.js
+export async function get() {
+  return {
+    body: JSON.stringify({
+      message: "Hallo von Astro!"
+    })
+  };
+}
+            `} lang="javascript" />
+            
+            <h3 class="mt-6">Dynamische API-Routen</h3>
+            <Code code={`
+// src/pages/api/[id].js
+export async function get({ params }) {
+  const { id } = params;
+  
+  return {
+    body: JSON.stringify({
+      id,
+      timestamp: new Date().toISOString()
+    })
+  };
+}
+
+export function getStaticPaths() {
+  return [
+    { params: { id: '1' } },
+    { params: { id: '2' } }
+  ];
+}
+            `} lang="javascript" />
+        </div>
+        <div>
+            <h3>Funktionen</h3>
+            <ul>
+                <li><strong>HTTP-Methoden:</strong> get, post, put, delete, all</li>
+                <li><strong>Response-Kontrolle:</strong> Status, Header, Body</li>
+                <li><strong>SSG & SSR:</strong> Funktioniert in beiden Modi</li>
+                <li><strong>Datenzugriff:</strong> Ideal für Datenbankabfragen, API-Calls</li>
+            </ul>
+            
+            <h3 class="mt-6">SSR-Beispiel mit Request-Daten</h3>
+            <Code code={`
+// src/pages/api/form.js
+export async function post({ request }) {
+  const data = await request.formData();
+  const name = data.get('name');
+  
+  // Verarbeite die Daten...
+  
+  return {
+    status: 200,
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ success: true })
+  };
+}
+            `} lang="javascript" />
+            
+            <p class="mt-4">Ähnlich zu Express.js-Handlern oder Next.js API-Routen, aber mit Astro-spezifischer Syntax.</p>
+        </div>
+    </div>
+</Layout>
