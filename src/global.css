@@ -47,3 +47,7 @@ li {
 [data-step].visible {
     @apply opacity-100;
 }
+
+pre {
+    @apply p-2;
+}

@@ -1,15 +1,13 @@
 ---
 import Layout from "@/layouts/SlideLayout.astro";
-import { Code } from 'astro:components';
+import {Code} from 'astro:components';
 ---
 
 <Layout next="/how-to-astro/islands" prev="/how-to-astro/routing/endpoints" slideId="13">
     <h1>Astro Components</h1>
 
-    <p>Astro-Komponenten (<code>.astro</code> Dateien) sind die Grundbausteine einer Astro-Anwendung - sie kombinieren HTML-Templating mit JavaScript.</p>
-
     <div class="grid grid-cols-2 gap-8 mt-8">
-        <div>
+        <div data-step>
             <h3>Grundstruktur einer Komponente</h3>
             <Code code={`
 ---
@@ -38,20 +36,12 @@ const formattedDate = formatDate(date);
     padding: 1rem;
   }
 </style>
-            `} lang="astro" />
+            `} lang="astro"/>
         </div>
         <div>
-            <h3>Besonderheiten</h3>
-            <ul>
-                <li><strong>Serverseitig:</strong> Komponenten werden auf dem Server gerendert</li>
-                <li><strong>Zero-JS:</strong> Standardmäßig wird kein JavaScript an den Client gesendet</li>
-                <li><strong>Scoped CSS:</strong> Styles sind automatisch auf die Komponente beschränkt</li>
-                <li><strong>Slots:</strong> Flexible Komposition mit <code>&lt;slot /&gt;</code> und benannten Slots</li>
-                <li><strong>Hydration:</strong> Optional mit <code>client:</code> Direktiven</li>
-            </ul>
-            
-            <h3 class="mt-6">Dynamische HTML</h3>
-            <Code code={`
+            <div data-step>
+                <h3 class="mt-6">Dynamisches Rendering</h3>
+                <Code code={`
 ---
 const items = ["Eins", "Zwei", "Drei"];
 ---
@@ -63,9 +53,20 @@ const items = ["Eins", "Zwei", "Drei"];
 
 {true && <p>Wird angezeigt</p>}
 {false && <p>Wird nicht angezeigt</p>}
-            `} lang="astro" />
-            
-            <p class="mt-4">Ähnlich zu JSX in React, aber mit vollständigem HTML-Support und ohne Client-seitiges Rendering.</p>
+            `} lang="astro"/>
+            </div>
+            <div data-step>
+                <h3>Besonderheiten</h3>
+                <ul>
+                    <li><strong>Serverseitig:</strong> Komponenten werden auf dem Server gerendert</li>
+                    <li><strong>Zero-JS:</strong> Standardmäßig wird kein JavaScript an den Client gesendet</li>
+                    <li><strong>Scoped CSS:</strong> Styles sind automatisch auf die Komponente beschränkt</li>
+                    <li><strong>Slots:</strong> Flexible Komposition mit <code>&lt;slot /&gt;</code> und benannten Slots
+                    </li>
+                    <li><strong>Hydration:</strong> Optional mit <code>client:</code> Direktiven</li>
+                </ul>
+            </div>
+
         </div>
     </div>
 </Layout>

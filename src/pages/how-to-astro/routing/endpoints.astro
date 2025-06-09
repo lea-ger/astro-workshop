@@ -1,15 +1,16 @@
 ---
 import Layout from "@/layouts/SlideLayout.astro";
-import { Code } from 'astro:components';
+import {Code} from 'astro:components';
 ---
 
 <Layout next="/how-to-astro/components" prev="/how-to-astro/routing/markdown-pages" slideId="12">
     <h1>API Endpoints</h1>
 
-    <p>Astro ermöglicht die Erstellung von <strong>API-Endpunkten</strong> mit JavaScript oder TypeScript-Dateien im <code>pages/</code>-Verzeichnis.</p>
+    <p>Astro ermöglicht die Erstellung von <strong>API-Endpunkten</strong> mit JavaScript oder TypeScript-Dateien im
+        <code>pages/</code>-Verzeichnis.</p>
 
     <div class="grid grid-cols-2 gap-8 mt-8">
-        <div>
+        <div data-step>
             <h3>Einfacher API-Endpunkt</h3>
             <Code code={`
 // src/pages/api/hello.js
@@ -20,8 +21,8 @@ export async function get() {
     })
   };
 }
-            `} lang="javascript" />
-            
+            `} lang="javascript"/>
+
             <h3 class="mt-6">Dynamische API-Routen</h3>
             <Code code={`
 // src/pages/api/[id].js
@@ -42,9 +43,9 @@ export function getStaticPaths() {
     { params: { id: '2' } }
   ];
 }
-            `} lang="javascript" />
+            `} lang="javascript"/>
         </div>
-        <div>
+        <div data-step>
             <h3>Funktionen</h3>
             <ul>
                 <li><strong>HTTP-Methoden:</strong> get, post, put, delete, all</li>
@@ -52,9 +53,10 @@ export function getStaticPaths() {
                 <li><strong>SSG & SSR:</strong> Funktioniert in beiden Modi</li>
                 <li><strong>Datenzugriff:</strong> Ideal für Datenbankabfragen, API-Calls</li>
             </ul>
-            
-            <h3 class="mt-6">SSR-Beispiel mit Request-Daten</h3>
-            <Code code={`
+
+            <div data-step>
+                <h3 class="mt-6">SSR-Beispiel mit Request-Daten</h3>
+                <Code code={`
 // src/pages/api/form.js
 export async function post({ request }) {
   const data = await request.formData();
@@ -70,9 +72,11 @@ export async function post({ request }) {
     body: JSON.stringify({ success: true })
   };
 }
-            `} lang="javascript" />
-            
-            <p class="mt-4">Ähnlich zu Express.js-Handlern oder Next.js API-Routen, aber mit Astro-spezifischer Syntax.</p>
+            `} lang="javascript"/>
+
+                <p class="mt-4">Ähnlich zu Express.js-Handlern oder Next.js API-Routen, aber mit Astro-spezifischer
+                    Syntax.</p>
+            </div>
         </div>
     </div>
 </Layout>

@@ -3,13 +3,13 @@ import Layout from "@/layouts/SlideLayout.astro";
 import { Code } from 'astro:components';
 ---
 
-<Layout next="/how-to-astro/routing/markdown-pages" prev="/how-to-astro/filesystem" slideId="10">
+<Layout next="/how-to-astro/routing/markdown-pages" prev="/how-to-astro/dateistruktur" slideId="10">
     <h1>Routing</h1>
 
-    <p>Astro verwendet <strong>dateibasiertes Routing</strong> - jede Datei in deinem <code>src/pages</code>-Verzeichnis wird automatisch zu einer Route.</p>
+    <p>Astro verwendet <strong>dateibasiertes Routing</strong> - jede Datei in deinem <code>src/pages</code>-Verzeichnis wird automatisch zu einer Route (ähnlich wie z.B. Next.js).</p>
 
     <div class="grid grid-cols-2 gap-8 mt-8">
-        <div>
+        <div data-step>
             <h3>Dateistruktur zu URLs</h3>
             <Code code={`
 src/pages/
@@ -34,7 +34,7 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
             `} lang="typescript" />
         </div>
-        <div>
+        <div data-step>
             <h3>Unterstützte Dateitypen</h3>
             <ul>
                 <li><strong>.astro</strong> - Astro-Komponenten</li>
@@ -49,8 +49,6 @@ const { slug } = Astro.params;
                 <li>Benannte dynamische Routen (<code>/blog/[slug]</code>)</li>
                 <li>Rest-Parameter Routen (<code>/[...slug]</code>)</li>
             </ol>
-            
-            <p class="mt-4">Ähnlich wie bei Next.js, aber mit einigen Unterschieden in der Syntax und Funktionalität.</p>
         </div>
     </div>
 </Layout>

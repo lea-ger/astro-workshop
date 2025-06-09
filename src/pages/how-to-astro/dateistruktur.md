@@ -4,12 +4,12 @@ title: Markdown-Seiten
 author: Leander Gerwing
 next: /how-to-astro/routing
 prev: /how-to-astro
-slideId: 9
+slideId: 11
 ---
 
 # Dateistruktur eines Astro-Projekts
 
-```text 
+```text data-step="1"
 /
 ├── public/
 │   └── favicon.svg
@@ -20,7 +20,7 @@ slideId: 9
 │       └── how-to-astro/
 │            └── dateistruktur.md
 └── package.json
-``` 
+```
 
 ### Wichtige Verzeichnisse {#custom-id}
 
