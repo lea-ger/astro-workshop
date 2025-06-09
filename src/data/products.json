@@ -1,1798 +1,1341 @@
 [
   {
     "id": 1,
-    "title": "Essence Mascara Lash Princess",
-    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
-    "category": "beauty",
-    "price": 9.99,
-    "discountPercentage": 10.48,
-    "rating": 2.56,
-    "stock": 99,
-    "tags": [
-      "beauty",
-      "mascara"
+    "title": "Aufschieber-Stift",
+    "description": "Ein Stift, der Ausreden schreibt, warum deine Arbeit noch nicht fertig ist. Die Tinte geht nie aus, genau wie deine Ausreden!",
+    "price": 12.99,
+    "rating": 4.7,
+    "brand": "TerminVerschieber",
+    "sku": "PP-001-BLK",
+    "categories": [
+      "Schreibwaren",
+      "Bürobedarf"
     ],
-    "brand": "Essence",
-    "sku": "BEA-ESS-ESS-001",
-    "weight": 4,
-    "dimensions": {
-      "width": 15.14,
-      "height": 13.08,
-      "depth": 22.99
+    "tags": [
+      "stift",
+      "prokrastination"
+    ],
+    "shipping": {
+      "weight": "0.1kg",
+      "dimensions": "15cm x 2cm x 2cm",
+      "free_shipping": true,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "1 week warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 3,
-        "comment": "Would not recommend!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Eleanor Collins",
-        "reviewerEmail": "eleanor.collins@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Very satisfied!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Lucas Gordon",
-        "reviewerEmail": "lucas.gordon@x.dummyjson.com"
-      },
-      {
+        "user": "ZeitVerschwender42",
         "rating": 5,
-        "comment": "Highly impressed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Eleanor Collins",
-        "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+        "comment": "Dieser Stift hat meine Karriere gerettet! Mein Chef liebt die kreativen Ausreden, die er schreibt."
+      },
+      {
+        "user": "TerminLeugner",
+        "rating": 4,
+        "comment": "Funktioniert gut, wiederholt aber manchmal Ausreden. Mehr Vielfalt wäre gut!"
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 48,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "5784719087687",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Aufschieber-Stift",
     "images": [
-      "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+      "https://placehold.co/800x600?text=Aufschieber-Stift+1",
+      "https://placehold.co/800x600?text=Aufschieber-Stift+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+    "stock": 42,
+    "featured": true
   },
   {
     "id": 2,
-    "title": "Eyeshadow Palette with Mirror",
-    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
-    "category": "beauty",
-    "price": 19.99,
-    "discountPercentage": 18.19,
-    "rating": 2.86,
-    "stock": 34,
-    "tags": [
-      "beauty",
-      "eyeshadow"
+    "title": "Meeting-Überlebens-Notizbuch",
+    "description": "Spezielles Notizbuch mit versteckten Spielen, Sudoku und Kreuzworträtseln getarnt als Besprechungsnotizen. Enthält ein 'Buzzword-Bingo' auf jeder Seite!",
+    "price": 18.50,
+    "rating": 4.9,
+    "brand": "LangweiligerRaum",
+    "sku": "MSN-002-BLU",
+    "categories": [
+      "Notizbücher",
+      "Besprechungsbedarf",
+      "Unterhaltung"
     ],
-    "brand": "Glamour Beauty",
-    "sku": "BEA-GLA-EYE-002",
-    "weight": 9,
-    "dimensions": {
-      "width": 9.26,
-      "height": 22.47,
-      "depth": 27.67
+    "tags": [
+      "notizbuch",
+      "besprechungen",
+      "langeweile",
+      "spiele"
+    ],
+    "shipping": {
+      "weight": "0.3kg",
+      "dimensions": "21cm x 15cm x 1.5cm",
+      "free_shipping": true,
+      "estimated_delivery": "1-2 Werktage"
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 2 weeks",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "BesprechungsHasser99",
         "rating": 5,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Savannah Gomez",
-        "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+        "comment": "Dieses Notizbuch hat meine geistige Gesundheit während unserer 4-stündigen strategischen Planungssitzung gerettet!"
       },
       {
-        "rating": 4,
-        "comment": "Awesome product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Christian Perez",
-        "reviewerEmail": "christian.perez@x.dummyjson.com"
-      },
-      {
-        "rating": 1,
-        "comment": "Poor quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nicholas Bailey",
-        "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+        "user": "UnternehmensÜberlebender",
+        "rating": 5,
+        "comment": "Das Buzzword-Bingo ist genau richtig! Ich habe dreimal in einer Besprechung gewonnen!"
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 20,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "9170275171413",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Meeting-Überlebens-Notizbuch",
     "images": [
-      "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+      "https://placehold.co/800x600?text=Meeting-Überlebens-Notizbuch+1",
+      "https://placehold.co/800x600?text=Meeting-Überlebens-Notizbuch+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp"
+    "stock": 78,
+    "featured": true
   },
   {
     "id": 3,
-    "title": "Powder Canister",
-    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-    "category": "beauty",
-    "price": 14.99,
-    "discountPercentage": 9.84,
-    "rating": 4.64,
-    "stock": 89,
-    "tags": [
-      "beauty",
-      "face powder"
+    "title": "Fristverlängerungs-Antragsformulare",
+    "description": "Vorausgefüllte Formulare mit 101 kreativen Gründen für verpasste Fristen. Enthält abreißbare Unterschriftsstreifen und eingebauten Ausredengenerator.",
+    "price": 9.99,
+    "rating": 4.5,
+    "brand": "ZeitVerschieber",
+    "sku": "DER-003-RED",
+    "categories": [
+      "Formulare",
+      "Zeitmanagement"
     ],
-    "brand": "Velvet Touch",
-    "sku": "BEA-VEL-POW-003",
-    "weight": 8,
-    "dimensions": {
-      "width": 29.27,
-      "height": 27.93,
-      "depth": 20.59
+    "tags": [
+      "fristen",
+      "ausreden",
+      "formulare",
+      "zeitmanagement"
+    ],
+    "shipping": {
+      "weight": "0.2kg",
+      "dimensions": "30cm x 21cm x 0.5cm",
+      "free_shipping": false,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "3 months warranty",
-    "shippingInformation": "Ships in 1-2 business days",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Alexander Jones",
-        "reviewerEmail": "alexander.jones@x.dummyjson.com"
-      },
-      {
+        "user": "ImmerZuSpätZurArbeit",
         "rating": 5,
-        "comment": "Highly impressed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Elijah Cruz",
-        "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+        "comment": "Mein Chef hat tatsächlich gelacht, anstatt mich zu feuern! Jeden Cent wert."
       },
       {
-        "rating": 1,
-        "comment": "Very dissatisfied!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Avery Perez",
-        "reviewerEmail": "avery.perez@x.dummyjson.com"
+        "user": "FristAusweicher",
+        "rating": 4,
+        "comment": "Tolles Produkt, aber ich habe es zu schnell aufgebraucht. Brauche eine Großpackung!"
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 22,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "8418883906837",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Fristverlängerungs-Antragsformulare",
     "images": [
-      "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"
+      "https://placehold.co/800x600?text=Fristverlängerungs-Antragsformulare+1",
+      "https://placehold.co/800x600?text=Fristverlängerungs-Antragsformulare+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp"
+    "stock": 120,
+    "featured": false
   },
   {
     "id": 4,
-    "title": "Red Lipstick",
-    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
-    "category": "beauty",
-    "price": 12.99,
-    "discountPercentage": 12.16,
-    "rating": 4.36,
-    "stock": 91,
-    "tags": [
-      "beauty",
-      "lipstick"
+    "title": "Chef-Erkennungssystem",
+    "description": "Bewegungsaktiviertes Alarmsystem, das 'Arbeitsgeräusche' abspielt und deinen Bildschirm auf eine Tabellenkalkulation umschaltet, wenn dein Chef sich nähert.",
+    "price": 49.99,
+    "rating": 4.8,
+    "brand": "FaulenzenVorbei",
+    "sku": "BDS-004-BLK",
+    "categories": [
+      "Sicherheit",
+      "Produktivität",
+      "Gadgets"
     ],
-    "brand": "Chic Cosmetics",
-    "sku": "BEA-CHI-LIP-004",
-    "weight": 1,
-    "dimensions": {
-      "width": 18.11,
-      "height": 28.38,
-      "depth": 22.17
+    "tags": [
+      "alarmsystem",
+      "privatsphäre",
+      "chef",
+      "bildschirmwechsler"
+    ],
+    "shipping": {
+      "weight": "0.5kg",
+      "dimensions": "10cm x 8cm x 5cm",
+      "free_shipping": true,
+      "estimated_delivery": "3-5 Werktage"
     },
-    "warrantyInformation": "3 year warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "BüroboxNinja",
+        "rating": 5,
+        "comment": "Dieses kleine Gerät hat mich mindestens 37 Mal davor bewahrt, beim Anschauen von Katzenvideos erwischt zu werden!"
+      },
+      {
+        "user": "SocialMediaSüchtiger",
         "rating": 4,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Liam Garcia",
-        "reviewerEmail": "liam.garcia@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Ruby Andrews",
-        "reviewerEmail": "ruby.andrews@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Would buy again!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Clara Berry",
-        "reviewerEmail": "clara.berry@x.dummyjson.com"
+        "comment": "Funktioniert super, aber mein Chef fragt sich, warum ich immer die gleiche Tabellenkalkulation anschaue."
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 40,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "9467746727219",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Chef-Erkennungssystem",
     "images": [
-      "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"
+      "https://placehold.co/800x600?text=Chef-Erkennungssystem+1",
+      "https://placehold.co/800x600?text=Chef-Erkennungssystem+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp"
+    "stock": 15,
+    "featured": true
   },
   {
     "id": 5,
-    "title": "Red Nail Polish",
-    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
-    "category": "beauty",
-    "price": 8.99,
-    "discountPercentage": 11.44,
-    "rating": 4.32,
-    "stock": 79,
-    "tags": [
-      "beauty",
-      "nail polish"
+    "title": "Motivierende Haftnotizen",
+    "description": "Haftnotizen, die mit motivierenden Zitaten beginnen, aber sich allmählich in sarkastische Kommentare verwandeln, je länger sie unbenutzt bleiben.",
+    "price": 7.99,
+    "rating": 4.3,
+    "brand": "PassivAggressiv",
+    "sku": "MSN-005-YLW",
+    "categories": [
+      "Haftnotizen",
+      "Motivation"
     ],
-    "brand": "Nail Couture",
-    "sku": "BEA-NAI-NAI-005",
-    "weight": 8,
-    "dimensions": {
-      "width": 21.63,
-      "height": 16.48,
-      "depth": 29.84
+    "tags": [
+      "haftnotizen",
+      "motivation",
+      "sarkasmus",
+      "bürobedarf"
+    ],
+    "shipping": {
+      "weight": "0.1kg",
+      "dimensions": "8cm x 8cm x 2cm",
+      "free_shipping": false,
+      "estimated_delivery": "1-3 Werktage"
     },
-    "warrantyInformation": "1 month warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 2,
-        "comment": "Poor quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Benjamin Wilson",
-        "reviewerEmail": "benjamin.wilson@x.dummyjson.com"
-      },
-      {
+        "user": "ProkrastinationsProfi",
         "rating": 5,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Liam Smith",
-        "reviewerEmail": "liam.smith@x.dummyjson.com"
+        "comment": "Ich liebe, wie sie mir ein schlechtes Gewissen machen, damit ich meine Aufgaben tatsächlich erledige!"
       },
       {
-        "rating": 1,
-        "comment": "Very unhappy with my purchase!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Clara Berry",
-        "reviewerEmail": "clara.berry@x.dummyjson.com"
+        "user": "ToDoListenErsteller",
+        "rating": 3,
+        "comment": "Lustiges Konzept, aber der Sarkasmus verletzt manchmal meine Gefühle."
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 22,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "4063010628104",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Motivierende+Haftnotizen",
     "images": [
-      "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp"
+      "https://placehold.co/800x600?text=Motivierende+Haftnotizen+1",
+      "https://placehold.co/800x600?text=Motivierende+Haftnotizen+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp"
+    "stock": 200,
+    "featured": false
   },
   {
     "id": 6,
-    "title": "Calvin Klein CK One",
-    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
-    "category": "fragrances",
-    "price": 49.99,
-    "discountPercentage": 1.89,
-    "rating": 4.37,
-    "stock": 29,
-    "tags": [
-      "fragrances",
-      "perfumes"
+    "title": "E-Mail-Übersetzer",
+    "description": "Software, die übersetzt, was Menschen in ihren E-Mails wirklich meinen. Entschlüsselt 'Wie in meiner letzten E-Mail erwähnt' zu 'Kannst du lesen, du absolute Walnuss?'",
+    "price": 29.99,
+    "rating": 4.9,
+    "brand": "PassivAggressiv",
+    "sku": "ET-006-DIG",
+    "categories": [
+      "Software",
+      "Kommunikation"
     ],
-    "brand": "Calvin Klein",
-    "sku": "FRA-CAL-CAL-006",
-    "weight": 7,
-    "dimensions": {
-      "width": 29.36,
-      "height": 27.76,
-      "depth": 20.72
+    "tags": [
+      "email",
+      "übersetzer",
+      "kommunikation"
+    ],
+    "shipping": {
+      "weight": "0kg",
+      "dimensions": "Digitaler Download",
+      "free_shipping": true,
+      "estimated_delivery": "Sofort"
     },
-    "warrantyInformation": "1 week warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 2,
-        "comment": "Very disappointed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Layla Young",
-        "reviewerEmail": "layla.young@x.dummyjson.com"
+        "user": "EmailKrieger",
+        "rating": 5,
+        "comment": "Endlich verstehe ich, was meine Kollegen wirklich sagen! Lebensverändernd."
       },
       {
-        "rating": 4,
-        "comment": "Fast shipping!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Daniel Cook",
-        "reviewerEmail": "daniel.cook@x.dummyjson.com"
-      },
-      {
-        "rating": 3,
-        "comment": "Not as described!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Jacob Cooper",
-        "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+        "user": "UnternehmensKomm22",
+        "rating": 5,
+        "comment": "Das hat meine E-Mail-Etikette verbessert. Ich hatte keine Ahnung, wie unhöflich ich klang!"
       }
     ],
-    "returnPolicy": "90 days return policy",
-    "minimumOrderQuantity": 9,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "2451534060749",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=E-Mail-Übersetzer",
     "images": [
-      "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/2.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/3.webp"
+      "https://placehold.co/800x600?text=E-Mail-Übersetzer+1",
+      "https://placehold.co/800x600?text=E-Mail-Übersetzer+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp"
+    "stock": 999,
+    "featured": true
   },
   {
     "id": 7,
-    "title": "Chanel Coco Noir Eau De",
-    "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-    "category": "fragrances",
-    "price": 129.99,
-    "discountPercentage": 16.51,
-    "rating": 4.26,
-    "stock": 58,
-    "tags": [
-      "fragrances",
-      "perfumes"
+    "title": "Schreibtisch-Hängematte",
+    "description": "Mini-Hängematte, die an deinem Schreibtisch befestigt wird für Powernaps. Kommt mit 'Ich denke tief nach' Augenmaske und Fake-Tippgeräusch-Generator.",
+    "price": 24.95,
+    "rating": 4.2,
+    "brand": "NickerZeit",
+    "sku": "DH-007-GRY",
+    "categories": [
+      "Möbel",
+      "Komfort",
+      "Nickerchenzubehör"
     ],
-    "brand": "Chanel",
-    "sku": "FRA-CHA-CHA-007",
-    "weight": 7,
-    "dimensions": {
-      "width": 24.5,
-      "height": 25.7,
-      "depth": 25.98
+    "tags": [
+      "hängematte",
+      "nickerchen",
+      "schreibtisch",
+      "komfort"
+    ],
+    "shipping": {
+      "weight": "0.7kg",
+      "dimensions": "30cm x 25cm x 10cm",
+      "free_shipping": true,
+      "estimated_delivery": "3-5 Werktage"
     },
-    "warrantyInformation": "3 year warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Highly impressed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Ruby Andrews",
-        "reviewerEmail": "ruby.andrews@x.dummyjson.com"
+        "user": "SchläfrigerEntwickler",
+        "rating": 5,
+        "comment": "Ich war noch nie so produktiv! Womit ich meine, ich war noch nie so gut ausgeruht."
       },
       {
-        "rating": 5,
-        "comment": "Awesome product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Leah Henderson",
-        "reviewerEmail": "leah.henderson@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Very happy with my purchase!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Xavier Wright",
-        "reviewerEmail": "xavier.wright@x.dummyjson.com"
+        "user": "ÜberarbeiteterManager",
+        "rating": 3,
+        "comment": "Tolles Produkt, aber mein Team hat alle eine gekauft und jetzt arbeitet niemand mehr wirklich."
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "4091737746820",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Schreibtisch-Hängematte",
     "images": [
-      "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/2.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/3.webp"
+      "https://placehold.co/800x600?text=Schreibtisch-Hängematte+1",
+      "https://placehold.co/800x600?text=Schreibtisch-Hängematte+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    "stock": 32,
+    "featured": false
   },
   {
     "id": 8,
-    "title": "Dior J'adore",
-    "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
-    "category": "fragrances",
-    "price": 89.99,
-    "discountPercentage": 14.72,
-    "rating": 3.8,
-    "stock": 98,
-    "tags": [
-      "fragrances",
-      "perfumes"
+    "title": "Besprechungs-BINGO-Karten",
+    "description": "Anpassbare Bingo-Karten mit gängigen Besprechungsphrasen. Enthält unsichtbaren Tintenstift, damit nur du weißt, wann du gewonnen hast.",
+    "price": 14.99,
+    "rating": 4.7,
+    "brand": "LangweiligerRaum",
+    "sku": "MBC-008-MLT",
+    "categories": [
+      "Spiele",
+      "Besprechungsbedarf",
+      "Unterhaltung"
     ],
-    "brand": "Dior",
-    "sku": "FRA-DIO-DIO-008",
-    "weight": 4,
-    "dimensions": {
-      "width": 27.67,
-      "height": 28.28,
-      "depth": 11.83
+    "tags": [
+      "bingo",
+      "besprechungen",
+      "spiele",
+      "bürospaß"
+    ],
+    "shipping": {
+      "weight": "0.2kg",
+      "dimensions": "21cm x 15cm x 1cm",
+      "free_shipping": false,
+      "estimated_delivery": "2-4 Werktage"
     },
-    "warrantyInformation": "1 week warranty",
-    "shippingInformation": "Ships in 2 weeks",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "ZoomZombie",
         "rating": 5,
-        "comment": "Great value for money!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nicholas Bailey",
-        "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+        "comment": "Ich freue mich jetzt auf unsere wöchentliche Gesamtbesprechung, nur um das zu spielen!"
       },
       {
+        "user": "BesprechungsHasser",
         "rating": 4,
-        "comment": "Great value for money!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Penelope Harper",
-        "reviewerEmail": "penelope.harper@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Emma Miller",
-        "reviewerEmail": "emma.miller@x.dummyjson.com"
+        "comment": "Macht Spaß, aber ich wurde beim Feiern eines BINGO-Gewinns während einer ernsten Budgetdiskussion erwischt."
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 10,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "1445086097250",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Besprechungs-BINGO-Karten",
     "images": [
-      "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/2.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/3.webp"
+      "https://placehold.co/800x600?text=Besprechungs-BINGO-Karten+1",
+      "https://placehold.co/800x600?text=Besprechungs-BINGO-Karten+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp"
+    "stock": 85,
+    "featured": false
   },
   {
     "id": 9,
-    "title": "Dolce Shine Eau de",
-    "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
-    "category": "fragrances",
-    "price": 69.99,
-    "discountPercentage": 0.62,
-    "rating": 3.96,
-    "stock": 4,
-    "tags": [
-      "fragrances",
-      "perfumes"
+    "title": "Ausreden-Generator-Kalender",
+    "description": "Tageskalender mit einer neuen, glaubwürdigen Ausrede für jeden Tag des Jahres. Verwende nie wieder 'mein Hund hat meinen Bericht gefressen'!",
+    "price": 15.95,
+    "rating": 4.4,
+    "brand": "ZeitVerschieber",
+    "sku": "EGC-009-YR23",
+    "categories": [
+      "Kalender",
+      "Bürobedarf"
     ],
-    "brand": "Dolce & Gabbana",
-    "sku": "FRA-DOL-DOL-009",
-    "weight": 6,
-    "dimensions": {
-      "width": 27.28,
-      "height": 29.88,
-      "depth": 18.3
+    "tags": [
+      "kalender",
+      "ausreden",
+      "täglich"
+    ],
+    "shipping": {
+      "weight": "0.5kg",
+      "dimensions": "15cm x 15cm x 5cm",
+      "free_shipping": false,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "3 year warranty",
-    "shippingInformation": "Ships in 1 month",
-    "availabilityStatus": "Low Stock",
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Mateo Bennett",
-        "reviewerEmail": "mateo.bennett@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nolan Gonzalez",
-        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
-      },
-      {
+        "user": "ChronischerZuspätkommer",
         "rating": 5,
-        "comment": "Very happy with my purchase!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Aurora Lawson",
-        "reviewerEmail": "aurora.lawson@x.dummyjson.com"
+        "comment": "Die Ausrede vom 15. April über den zeitreisenden Lieferanten war ein Hit bei meinem Team!"
+      },
+      {
+        "user": "AusredenMeister",
+        "rating": 4,
+        "comment": "Gute Vielfalt, aber ich habe bereits den ganzen September aufgebraucht und es ist erst der 10."
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 2,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "3023868210708",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Ausreden-Generator-Kalender",
     "images": [
-      "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/2.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/3.webp"
+      "https://placehold.co/800x600?text=Ausreden-Generator-Kalender+1",
+      "https://placehold.co/800x600?text=Ausreden-Generator-Kalender+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp"
+    "stock": 112,
+    "featured": false
   },
   {
     "id": 10,
-    "title": "Gucci Bloom Eau de",
-    "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
-    "category": "fragrances",
-    "price": 79.99,
-    "discountPercentage": 14.39,
-    "rating": 2.74,
-    "stock": 91,
-    "tags": [
-      "fragrances",
-      "perfumes"
+    "title": "Unsichtbare Kopfhörer",
+    "description": "Hautfarbene kabellose Ohrhörer, mit denen du Musik hören kannst, während du vorgibst, in Besprechungen aufzupassen. Enthält 'interessiertes Nicken' Auto-Antwort.",
+    "price": 59.99,
+    "rating": 4.6,
+    "brand": "FaulenzenVorbei",
+    "sku": "IH-010-NUDE",
+    "categories": [
+      "Audio",
+      "Tarnung",
+      "Besprechungsbedarf"
     ],
-    "brand": "Gucci",
-    "sku": "FRA-GUC-GUC-010",
-    "weight": 7,
-    "dimensions": {
-      "width": 20.92,
-      "height": 21.68,
-      "depth": 11.2
+    "tags": [
+      "kopfhörer",
+      "ohrhörer",
+      "besprechungen",
+      "musik"
+    ],
+    "shipping": {
+      "weight": "0.1kg",
+      "dimensions": "5cm x 5cm x 3cm",
+      "free_shipping": true,
+      "estimated_delivery": "1-3 Werktage"
     },
-    "warrantyInformation": "6 months warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 1,
-        "comment": "Very dissatisfied!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Cameron Perez",
-        "reviewerEmail": "cameron.perez@x.dummyjson.com"
-      },
-      {
+        "user": "BesprechungsSchläfer",
         "rating": 5,
-        "comment": "Very happy with my purchase!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Daniel Cook",
-        "reviewerEmail": "daniel.cook@x.dummyjson.com"
+        "comment": "Ich habe ganze Quartalsberichte durchgestanden, ohne ein Wort zu hören. Herrlich!"
       },
       {
+        "user": "PodcastSüchtiger",
         "rating": 4,
-        "comment": "Highly impressed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Addison Wright",
-        "reviewerEmail": "addison.wright@x.dummyjson.com"
+        "comment": "Tolles Produkt, aber die Nickfunktion aktiviert sich zu häufig."
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 2,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "3170832177880",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Unsichtbare+Kopfhörer",
     "images": [
-      "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/2.webp",
-      "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/3.webp"
+      "https://placehold.co/800x600?text=Unsichtbare+Kopfhörer+1",
+      "https://placehold.co/800x600?text=Unsichtbare+Kopfhörer+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp"
+    "stock": 27,
+    "featured": true
   },
   {
     "id": 11,
-    "title": "Annibale Colombo Bed",
-    "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
-    "category": "furniture",
-    "price": 1899.99,
-    "discountPercentage": 8.57,
-    "rating": 4.77,
-    "stock": 88,
-    "tags": [
-      "furniture",
-      "beds"
+    "title": "Tastatur-Krümel-Staubsauger",
+    "description": "Mini-Staubsauger zum Entfernen von Mittagsresten von deiner Tastatur. Sammelt auch Beweise für Snacks während der Arbeitszeit.",
+    "price": 19.99,
+    "rating": 4.3,
+    "brand": "SaubererSchreibtisch",
+    "sku": "KCV-011-WHT",
+    "categories": [
+      "Reinigung",
+      "Gadgets",
+      "Schreibtischzubehör"
     ],
-    "brand": "Annibale Colombo",
-    "sku": "FUR-ANN-ANN-011",
-    "weight": 10,
-    "dimensions": {
-      "width": 28.16,
-      "height": 25.36,
-      "depth": 17.28
+    "tags": [
+      "staubsauger",
+      "tastatur",
+      "reinigung",
+      "mittagessen"
+    ],
+    "shipping": {
+      "weight": "0.3kg",
+      "dimensions": "12cm x 8cm x 4cm",
+      "free_shipping": false,
+      "estimated_delivery": "2-4 Werktage"
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 1 month",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 2,
-        "comment": "Would not recommend!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Christopher West",
-        "reviewerEmail": "christopher.west@x.dummyjson.com"
+        "user": "SchreibtischEsser",
+        "rating": 5,
+        "comment": "Meine Tastatur war noch nie so sauber, und meine geheime Chips-Sucht bleibt verborgen!"
       },
       {
+        "user": "SchlampigeTipper",
         "rating": 4,
-        "comment": "Highly impressed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Vivian Carter",
-        "reviewerEmail": "vivian.carter@x.dummyjson.com"
-      },
-      {
-        "rating": 1,
-        "comment": "Poor quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Mason Wright",
-        "reviewerEmail": "mason.wright@x.dummyjson.com"
+        "comment": "Funktioniert gut, macht aber ein Surren, das allen verkündet, dass ich wieder an meinem Schreibtisch gegessen habe."
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "3610757456581",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Tastatur-Krümel-Staubsauger",
     "images": [
-      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"
+      "https://placehold.co/800x600?text=Tastatur-Krümel-Staubsauger+1",
+      "https://placehold.co/800x600?text=Tastatur-Krümel-Staubsauger+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"
+    "stock": 64,
+    "featured": false
   },
   {
     "id": 12,
-    "title": "Annibale Colombo Sofa",
-    "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
-    "category": "furniture",
-    "price": 2499.99,
-    "discountPercentage": 14.4,
-    "rating": 3.92,
-    "stock": 60,
-    "tags": [
-      "furniture",
-      "sofas"
+    "title": "Beförderungs-Suchender Briefbeschwerer",
+    "description": "Briefbeschwerer, der subtil deine Leistungen anzeigt, wenn dein Chef vorbeigeht. Wechselt im richtigen Moment von 'Papierkram' zu 'außergewöhnliche Leistungen'.",
+    "price": 22.50,
+    "rating": 4.1,
+    "brand": "KarriereKletterer",
+    "sku": "PSP-012-GLD",
+    "categories": [
+      "Schreibtischzubehör",
+      "Karriere",
+      "Gadgets"
     ],
-    "brand": "Annibale Colombo",
-    "sku": "FUR-ANN-ANN-012",
-    "weight": 6,
-    "dimensions": {
-      "width": 12.75,
-      "height": 20.55,
-      "depth": 19.06
+    "tags": [
+      "briefbeschwerer",
+      "beförderung",
+      "karriere",
+      "chef"
+    ],
+    "shipping": {
+      "weight": "0.5kg",
+      "dimensions": "10cm x 10cm x 5cm",
+      "free_shipping": true,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "Lifetime warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 3,
-        "comment": "Very unhappy with my purchase!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Christian Perez",
-        "reviewerEmail": "christian.perez@x.dummyjson.com"
-      },
-      {
+        "user": "FirmenleiterKletterer",
         "rating": 5,
-        "comment": "Fast shipping!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Lillian Bishop",
-        "reviewerEmail": "lillian.bishop@x.dummyjson.com"
+        "comment": "Wurde innerhalb von 2 Wochen nach Verwendung befördert! Zufall? Ich glaube nicht!"
       },
       {
-        "rating": 1,
-        "comment": "Poor quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Lillian Simmons",
-        "reviewerEmail": "lillian.simmons@x.dummyjson.com"
+        "user": "UnterbewerteterMitarbeiter",
+        "rating": 3,
+        "comment": "Mein Chef hat es bemerkt, aber fragte, warum ich einen Briefbeschwerer brauche, wenn jetzt alles digital ist."
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "1777662847736",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Beförderungs-Suchender+Briefbeschwerer",
     "images": [
-      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"
+      "https://placehold.co/800x600?text=Beförderungs-Suchender+Briefbeschwerer+1",
+      "https://placehold.co/800x600?text=Beförderungs-Suchender+Briefbeschwerer+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
+    "stock": 42,
+    "featured": false
   },
   {
     "id": 13,
-    "title": "Bedside Table African Cherry",
-    "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
-    "category": "furniture",
-    "price": 299.99,
-    "discountPercentage": 19.09,
-    "rating": 2.87,
-    "stock": 64,
-    "tags": [
-      "furniture",
-      "bedside tables"
+    "title": "Stress-Aktivierter Kühlbecher",
+    "description": "Kaffeebecher, der steigende Stresslevel erkennt und automatisch dein Getränk auf eine trinkbare Temperatur abkühlt. Verhindert Burnout und verbrannte Zungen!",
+    "price": 34.99,
+    "rating": 4.8,
+    "brand": "ChillOut",
+    "sku": "SCM-013-BLK",
+    "categories": [
+      "Trinkgefäße",
+      "Stressabbau",
+      "Tech-Gadgets"
     ],
-    "brand": "Furniture Co.",
-    "sku": "FUR-FUR-BED-013",
-    "weight": 2,
-    "dimensions": {
-      "width": 13.47,
-      "height": 24.99,
-      "depth": 27.35
+    "tags": [
+      "becher",
+      "kaffee",
+      "stressabbau",
+      "kühlung"
+    ],
+    "shipping": {
+      "weight": "0.4kg",
+      "dimensions": "12cm x 12cm x 15cm",
+      "free_shipping": true,
+      "estimated_delivery": "3-5 Werktage"
     },
-    "warrantyInformation": "5 year warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Aaliyah Hanson",
-        "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
+        "user": "KoffeinGetrieben",
+        "rating": 5,
+        "comment": "Dieser Becher weiß, dass ich gestresst bin, bevor ich es selbst weiß! Perfekte Kaffeetemperatur während der Deadline-Woche."
       },
       {
+        "user": "HeißgetränkHasser",
         "rating": 4,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Liam Smith",
-        "reviewerEmail": "liam.smith@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Avery Barnes",
-        "reviewerEmail": "avery.barnes@x.dummyjson.com"
+        "comment": "Funktioniert super, kühlt aber manchmal zu stark während besonders stressiger Anrufe."
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 3,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "6441287925979",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Stress-Aktivierter+Kühlbecher",
     "images": [
-      "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"
+      "https://placehold.co/800x600?text=Stress-Aktivierter+Kühlbecher+1",
+      "https://placehold.co/800x600?text=Stress-Aktivierter+Kühlbecher+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"
+    "stock": 38,
+    "featured": true
   },
   {
     "id": 14,
-    "title": "Knoll Saarinen Executive Conference Chair",
-    "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
-    "category": "furniture",
-    "price": 499.99,
-    "discountPercentage": 2.01,
-    "rating": 4.88,
-    "stock": 26,
-    "tags": [
-      "furniture",
-      "office chairs"
+    "title": "Chamäleon-Haftnotizen",
+    "description": "Haftnotizen, die je nach Aufgabendringlichkeit die Farbe ändern. Sieh zu, wie deine 'irgendwann'-Aufgaben durch Vernachlässigung allmählich rot werden!",
+    "price": 8.99,
+    "rating": 4.5,
+    "brand": "ZeitVerschieber",
+    "sku": "CPN-014-MLT",
+    "categories": [
+      "Haftnotizen",
+      "Zeitmanagement",
+      "Bürobedarf"
     ],
-    "brand": "Knoll",
-    "sku": "FUR-KNO-KNO-014",
-    "weight": 10,
-    "dimensions": {
-      "width": 13.81,
-      "height": 7.5,
-      "depth": 5.62
+    "tags": [
+      "haftnotizen",
+      "farbwechselnd",
+      "aufgaben",
+      "dringlichkeit"
+    ],
+    "shipping": {
+      "weight": "0.1kg",
+      "dimensions": "8cm x 8cm x 2cm",
+      "free_shipping": false,
+      "estimated_delivery": "1-3 Werktage"
     },
-    "warrantyInformation": "2 year warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 2,
-        "comment": "Waste of money!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Ella Cook",
-        "reviewerEmail": "ella.cook@x.dummyjson.com"
-      },
-      {
-        "rating": 2,
-        "comment": "Very dissatisfied!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Clara Berry",
-        "reviewerEmail": "clara.berry@x.dummyjson.com"
-      },
-      {
+        "user": "FristLeugner",
         "rating": 5,
-        "comment": "Would buy again!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Elena Long",
-        "reviewerEmail": "elena.long@x.dummyjson.com"
+        "comment": "Die visuelle Schuldzuweisung, die ich brauchte! Mein Schreibtisch ist kein Meer aus roten Notizen mehr."
+      },
+      {
+        "user": "FarbcodierterOrganisator",
+        "rating": 4,
+        "comment": "Liebe das Konzept, aber sie wechseln zu schnell die Farbe. Nicht alles ist dringend!"
       }
     ],
-    "returnPolicy": "60 days return policy",
-    "minimumOrderQuantity": 5,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "8919386859966",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Chamäleon-Haftnotizen",
     "images": [
-      "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"
+      "https://placehold.co/800x600?text=Chamäleon-Haftnotizen+1",
+      "https://placehold.co/800x600?text=Chamäleon-Haftnotizen+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"
+    "stock": 150,
+    "featured": false
   },
   {
     "id": 15,
-    "title": "Wooden Bathroom Sink With Mirror",
-    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
-    "category": "furniture",
-    "price": 799.99,
-    "discountPercentage": 8.8,
-    "rating": 3.59,
-    "stock": 7,
-    "tags": [
-      "furniture",
-      "bathroom"
+    "title": "Komplimente-Erzeugender Tacker",
+    "description": "Tacker, der beim Benutzen Komplimente flüstert. Steigert die Moral mit jedem Dokument, das du heftest!",
+    "price": 17.95,
+    "rating": 4.2,
+    "brand": "PositivPapierkram",
+    "sku": "CGS-015-RED",
+    "categories": [
+      "Tacker",
+      "Motivation",
+      "Bürobedarf"
     ],
-    "brand": "Bath Trends",
-    "sku": "FUR-BAT-WOO-015",
-    "weight": 10,
-    "dimensions": {
-      "width": 7.98,
-      "height": 8.88,
-      "depth": 28.46
+    "tags": [
+      "tacker",
+      "komplimente",
+      "motivation",
+      "büromoral"
+    ],
+    "shipping": {
+      "weight": "0.3kg",
+      "dimensions": "15cm x 8cm x 5cm",
+      "free_shipping": false,
+      "estimated_delivery": "2-4 Werktage"
     },
-    "warrantyInformation": "3 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "Low Stock",
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Fast shipping!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Logan Torres",
-        "reviewerEmail": "logan.torres@x.dummyjson.com"
-      },
-      {
+        "user": "PapierkramHasser",
         "rating": 5,
-        "comment": "Very pleased!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Aria Parker",
-        "reviewerEmail": "aria.parker@x.dummyjson.com"
+        "comment": "Ich ertappe mich dabei, wie ich Dinge nur tackere, um Komplimente zu bekommen. Toll für mein Selbstwertgefühl!"
       },
       {
+        "user": "RuhigerBüroarbeiter",
         "rating": 3,
-        "comment": "Poor quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Dylan Wells",
-        "reviewerEmail": "dylan.wells@x.dummyjson.com"
+        "comment": "Die Komplimente sind etwas laut. Meine Kollegen wissen jetzt, dass ich 50 Mal am Tag Dinge tackere."
       }
     ],
-    "returnPolicy": "60 days return policy",
-    "minimumOrderQuantity": 2,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "1958104402873",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Komplimente-Erzeugender+Tacker",
     "images": [
-      "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp",
-      "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.webp"
+      "https://placehold.co/800x600?text=Komplimente-Erzeugender+Tacker+1",
+      "https://placehold.co/800x600?text=Komplimente-Erzeugender+Tacker+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"
+    "stock": 75,
+    "featured": false
   },
   {
     "id": 16,
-    "title": "Apple",
-    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
-    "category": "groceries",
-    "price": 1.99,
-    "discountPercentage": 12.62,
-    "rating": 4.19,
-    "stock": 8,
-    "tags": [
-      "fruits"
+    "title": "Schreibtischpflanzen-Alibi",
+    "description": "Künstliche Schreibtischpflanze mit verstecktem Fach für Snacks, Handy oder Nickerchenkissen. 'Ich gieße nur meine Pflanze' war noch nie so vielseitig!",
+    "price": 29.95,
+    "rating": 4.7,
+    "brand": "FaulenzenVorbei",
+    "sku": "DPA-016-GRN",
+    "categories": [
+      "Schreibtischzubehör",
+      "Aufbewahrung",
+      "Tarnung"
     ],
-    "sku": "GRO-BRD-APP-016",
-    "weight": 9,
-    "dimensions": {
-      "width": 13.66,
-      "height": 11.01,
-      "depth": 9.73
+    "tags": [
+      "pflanze",
+      "versteckter stauraum",
+      "schreibtisch",
+      "snacks"
+    ],
+    "shipping": {
+      "weight": "0.8kg",
+      "dimensions": "25cm x 25cm x 30cm",
+      "free_shipping": true,
+      "estimated_delivery": "3-5 Werktage"
     },
-    "warrantyInformation": "3 year warranty",
-    "shippingInformation": "Ships in 2 weeks",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "SnackSchleicher",
         "rating": 5,
-        "comment": "Very satisfied!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Sophia Brown",
-        "reviewerEmail": "sophia.brown@x.dummyjson.com"
+        "comment": "Ich habe Snacks für eine ganze Woche in diesem Ding verstaut. Beste Anschaffung aller Zeiten!"
       },
       {
-        "rating": 1,
-        "comment": "Very dissatisfied!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Scarlett Bowman",
-        "reviewerEmail": "scarlett.bowman@x.dummyjson.com"
-      },
-      {
-        "rating": 3,
-        "comment": "Very unhappy with my purchase!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "William Gonzalez",
-        "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+        "user": "NickerchenProfi",
+        "rating": 5,
+        "comment": "Das Kissenfach ist genial. Ich habe Powernaps gemacht, ohne dass es jemand bemerkt hat!"
       }
     ],
-    "returnPolicy": "90 days return policy",
-    "minimumOrderQuantity": 7,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "7962803553314",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Schreibtischpflanzen-Alibi",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/apple/1.webp"
+      "https://placehold.co/800x600?text=Schreibtischpflanzen-Alibi+1",
+      "https://placehold.co/800x600?text=Schreibtischpflanzen-Alibi+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp"
+    "stock": 29,
+    "featured": true
   },
   {
     "id": 17,
-    "title": "Beef Steak",
-    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
-    "category": "groceries",
-    "price": 12.99,
-    "discountPercentage": 9.61,
-    "rating": 4.47,
-    "stock": 86,
-    "tags": [
-      "meat"
+    "title": "Fachjargon-Generator-Knopf",
+    "description": "Schreibtischknopf, der auf Abruf Unternehmens-Buzzwords erzeugt. Perfekt für Besprechungen, wenn du nicht vorbereitet bist, aber intelligent klingen musst!",
+    "price": 14.99,
+    "rating": 4.6,
+    "brand": "UnternehmensSprech",
+    "sku": "JGB-017-BLU",
+    "categories": [
+      "Gadgets",
+      "Besprechungsbedarf",
+      "Kommunikation"
     ],
-    "sku": "GRO-BRD-BEE-017",
-    "weight": 10,
-    "dimensions": {
-      "width": 18.9,
-      "height": 5.77,
-      "depth": 18.57
+    "tags": [
+      "fachjargon",
+      "buzzwords",
+      "besprechungen",
+      "kommunikation"
+    ],
+    "shipping": {
+      "weight": "0.2kg",
+      "dimensions": "10cm x 10cm x 5cm",
+      "free_shipping": false,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "3 year warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 3,
-        "comment": "Would not recommend!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Eleanor Tyler",
-        "reviewerEmail": "eleanor.tyler@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Fast shipping!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Alexander Jones",
-        "reviewerEmail": "alexander.jones@x.dummyjson.com"
-      },
-      {
+        "user": "BesprechungsBlender",
         "rating": 5,
-        "comment": "Great value for money!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Natalie Harris",
-        "reviewerEmail": "natalie.harris@x.dummyjson.com"
+        "comment": "Hat meine funktionsübergreifenden Team-Paradigmen synergisiert! (Ich habe keine Ahnung, was ich gerade gesagt habe, aber mein Chef liebte es)"
+      },
+      {
+        "user": "JargonHasser",
+        "rating": 4,
+        "comment": "Lustiges Produkt, aber ich mache mir Sorgen, dass ich anfange, diese Begriffe tatsächlich zu verstehen."
       }
     ],
-    "returnPolicy": "60 days return policy",
-    "minimumOrderQuantity": 43,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "5640063409695",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Fachjargon-Generator-Knopf",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp"
+      "https://placehold.co/800x600?text=Fachjargon-Generator-Knopf+1",
+      "https://placehold.co/800x600?text=Fachjargon-Generator-Knopf+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp"
+    "stock": 88,
+    "featured": false
   },
   {
     "id": 18,
-    "title": "Cat Food",
-    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
-    "category": "groceries",
-    "price": 8.99,
-    "discountPercentage": 9.58,
-    "rating": 3.13,
-    "stock": 46,
-    "tags": [
-      "pet supplies",
-      "cat food"
+    "title": "Produktivitäts-Illusions-Maus",
+    "description": "Maus, die sich leicht weiterbewegt, wenn du nicht an deinem Schreibtisch bist. Hält deinen Status 'aktiv' und den Bildschirmschoner fern!",
+    "price": 39.99,
+    "rating": 4.9,
+    "brand": "FaulenzenVorbei",
+    "sku": "PIM-018-BLK",
+    "categories": [
+      "Computerzubehör",
+      "Produktivität",
+      "Tarnung"
     ],
-    "sku": "GRO-BRD-FOO-018",
-    "weight": 10,
-    "dimensions": {
-      "width": 18.08,
-      "height": 9.26,
-      "depth": 21.86
+    "tags": [
+      "maus",
+      "aktivität",
+      "status",
+      "abwesend"
+    ],
+    "shipping": {
+      "weight": "0.2kg",
+      "dimensions": "12cm x 7cm x 4cm",
+      "free_shipping": true,
+      "estimated_delivery": "2-4 Werktage"
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 3,
-        "comment": "Would not recommend!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Noah Lewis",
-        "reviewerEmail": "noah.lewis@x.dummyjson.com"
+        "user": "KaffeepausenVerlängerer",
+        "rating": 5,
+        "comment": "Habe meine 15-minütige Pause auf 45 Minuten verlängert, ohne dass es jemand bemerkt hat. Jeden Cent wert!"
       },
       {
-        "rating": 3,
-        "comment": "Very unhappy with my purchase!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Ruby Andrews",
-        "reviewerEmail": "ruby.andrews@x.dummyjson.com"
-      },
-      {
-        "rating": 2,
-        "comment": "Very disappointed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Ethan Thompson",
-        "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+        "user": "HeimarbeiterSeit2020",
+        "rating": 5,
+        "comment": "Mein Teams-Status war zwei Wochen lang durchgehend grün, sogar während meiner Nickerchen!"
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 18,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "1483991328610",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Produktivitäts-Illusions-Maus",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp"
+      "https://placehold.co/800x600?text=Produktivitäts-Illusions-Maus+1",
+      "https://placehold.co/800x600?text=Produktivitäts-Illusions-Maus+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp"
+    "stock": 22,
+    "featured": true
   },
   {
     "id": 19,
-    "title": "Chicken Meat",
-    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
-    "category": "groceries",
-    "price": 9.99,
-    "discountPercentage": 13.7,
-    "rating": 3.19,
-    "stock": 97,
-    "tags": [
-      "meat"
+    "title": "Ablehnungssicherer Ordner",
+    "description": "Spezieller Ordner, der jeden Vorschlag beeindruckend aussehen lässt. Enthält eingebauten Statistikgenerator und Führungskräfte-hypnotisierende Farbmuster.",
+    "price": 24.99,
+    "rating": 4.4,
+    "brand": "KarriereKletterer",
+    "sku": "RPF-019-EXE",
+    "categories": [
+      "Ordner",
+      "Präsentation",
+      "Karriere"
     ],
-    "sku": "GRO-BRD-CHI-019",
-    "weight": 1,
-    "dimensions": {
-      "width": 11.03,
-      "height": 22.11,
-      "depth": 16.01
+    "tags": [
+      "ordner",
+      "vorschlag",
+      "präsentation",
+      "karriere"
+    ],
+    "shipping": {
+      "weight": "0.3kg",
+      "dimensions": "35cm x 25cm x 1cm",
+      "free_shipping": true,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 1 month",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "BudgetAnforderer",
         "rating": 5,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Mateo Bennett",
-        "reviewerEmail": "mateo.bennett@x.dummyjson.com"
+        "comment": "Mein übertriebenes Budget wurde genehmigt! Der Finanzchef konnte nicht aufhören, auf die Hypno-Muster zu starren."
       },
       {
+        "user": "IdeenPitcher",
         "rating": 4,
-        "comment": "Highly recommended!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Jackson Evans",
-        "reviewerEmail": "jackson.evans@x.dummyjson.com"
-      },
-      {
-        "rating": 3,
-        "comment": "Not worth the price!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Sadie Morales",
-        "reviewerEmail": "sadie.morales@x.dummyjson.com"
+        "comment": "Tolles Produkt, aber meine Idee war so schlecht, dass selbst dieser Ordner sie nicht retten konnte."
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 22,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "8829514594521",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Ablehnungssicherer+Ordner",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp",
-      "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/2.webp"
+      "https://placehold.co/800x600?text=Ablehnungssicherer+Ordner+1",
+      "https://placehold.co/800x600?text=Ablehnungssicherer+Ordner+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp"
+    "stock": 56,
+    "featured": false
   },
   {
     "id": 20,
-    "title": "Cooking Oil",
-    "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
-    "category": "groceries",
-    "price": 4.99,
-    "discountPercentage": 9.33,
+    "title": "Überstunden-Verhindernder Kalender",
+    "description": "Spezieller Kalender, der automatisch Terminkonflikte plant, wenn jemand versucht, Besprechungen außerhalb der Arbeitszeit zu buchen. Schützt deine persönliche Zeit!",
+    "price": 19.95,
     "rating": 4.8,
-    "stock": 10,
-    "tags": [
-      "cooking essentials"
+    "brand": "WorkLifeBalance",
+    "sku": "OCC-020-DIG",
+    "categories": [
+      "Software",
+      "Zeitmanagement",
+      "Work-Life-Balance"
     ],
-    "sku": "GRO-BRD-COO-020",
-    "weight": 5,
-    "dimensions": {
-      "width": 19.95,
-      "height": 27.54,
-      "depth": 24.86
+    "tags": [
+      "kalender",
+      "überstunden",
+      "besprechungen",
+      "work-life-balance"
+    ],
+    "shipping": {
+      "weight": "0kg",
+      "dimensions": "Digitaler Download",
+      "free_shipping": true,
+      "estimated_delivery": "Sofort"
     },
-    "warrantyInformation": "Lifetime warranty",
-    "shippingInformation": "Ships in 1-2 business days",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "KeineSpätenAbendeMehr",
         "rating": 5,
-        "comment": "Very happy with my purchase!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Victoria McDonald",
-        "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+        "comment": "Hatte keine 18-Uhr-Besprechung mehr, seit ich das installiert habe! Meine Familie dankt dir."
       },
       {
-        "rating": 2,
-        "comment": "Would not recommend!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Hazel Evans",
-        "reviewerEmail": "hazel.evans@x.dummyjson.com"
-      },
-      {
+        "user": "GrenzenDurchsetzer",
         "rating": 5,
-        "comment": "Would buy again!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Zoe Bennett",
-        "reviewerEmail": "zoe.bennett@x.dummyjson.com"
+        "comment": "Die automatischen 'Tut mir leid, ich habe einen sehr wichtigen Termin'-Nachrichten sind unbezahlbar."
       }
     ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 46,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "4874727824518",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Überstunden-Verhindernder+Kalender",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp"
+      "https://placehold.co/800x600?text=Überstunden-Verhindernder+Kalender+1",
+      "https://placehold.co/800x600?text=Überstunden-Verhindernder+Kalender+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp"
+    "stock": 999,
+    "featured": true
   },
   {
     "id": 21,
-    "title": "Cucumber",
-    "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
-    "category": "groceries",
-    "price": 1.49,
-    "discountPercentage": 0.16,
-    "rating": 4.07,
-    "stock": 84,
-    "tags": [
-      "vegetables"
+    "title": "Schreibtischschublade-Snack-Tresor",
+    "description": "Sicheres Fach für deine Schreibtischschublade, das sich nur für dich öffnet. Hält Büro-Snack-Diebe in Schach!",
+    "price": 27.50,
+    "rating": 4.5,
+    "brand": "SnackBeschützer",
+    "sku": "DDS-021-GRY",
+    "categories": [
+      "Aufbewahrung",
+      "Sicherheit",
+      "Schreibtischzubehör"
     ],
-    "sku": "GRO-BRD-CUC-021",
-    "weight": 4,
-    "dimensions": {
-      "width": 12.8,
-      "height": 28.38,
-      "depth": 21.34
+    "tags": [
+      "snacks",
+      "sicherheit",
+      "schublade",
+      "essen"
+    ],
+    "shipping": {
+      "weight": "0.6kg",
+      "dimensions": "20cm x 15cm x 10cm",
+      "free_shipping": true,
+      "estimated_delivery": "2-4 Werktage"
     },
-    "warrantyInformation": "2 year warranty",
-    "shippingInformation": "Ships in 1-2 business days",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Lincoln Kelly",
-        "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+        "user": "SchokoladenHamsterer",
+        "rating": 5,
+        "comment": "Meine M&Ms sind einen ganzen Monat lang unberührt geblieben! Das ist beispiellos."
       },
       {
+        "user": "BüroSnackOpfer",
         "rating": 4,
-        "comment": "Great value for money!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Savannah Gomez",
-        "reviewerEmail": "savannah.gomez@x.dummyjson.com"
-      },
-      {
-        "rating": 2,
-        "comment": "Poor quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "James Davis",
-        "reviewerEmail": "james.davis@x.dummyjson.com"
+        "comment": "Funktioniert super, aber der Alarm ist etwas laut. Jetzt wissen alle, dass ich Snacks habe."
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 2,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "5300066378225",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Schreibtischschublade-Snack-Tresor",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp"
+      "https://placehold.co/800x600?text=Schreibtischschublade-Snack-Tresor+1",
+      "https://placehold.co/800x600?text=Schreibtischschublade-Snack-Tresor+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp"
+    "stock": 43,
+    "featured": false
   },
   {
     "id": 22,
-    "title": "Dog Food",
-    "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
-    "category": "groceries",
-    "price": 10.99,
-    "discountPercentage": 10.27,
-    "rating": 4.55,
-    "stock": 71,
-    "tags": [
-      "pet supplies",
-      "dog food"
+    "title": "Gesprächs-Beendigungs-Telefon",
+    "description": "Schreibtischtelefon mit speziellem Knopf, der einen 'sehr wichtigen Anruf' auslöst, um dir zu helfen, unerwünschten Gesprächen zu entkommen. Enthält 10 voraufgezeichnete Notfallszenarien.",
+    "price": 45.99,
+    "rating": 4.7,
+    "brand": "FluchtKünstler",
+    "sku": "CEP-022-BLK",
+    "categories": [
+      "Telefone",
+      "Kommunikation",
+      "Bürobedarf"
     ],
-    "sku": "GRO-BRD-FOO-022",
-    "weight": 10,
-    "dimensions": {
-      "width": 16.93,
-      "height": 27.15,
-      "depth": 9.29
+    "tags": [
+      "telefon",
+      "gespräche",
+      "flucht",
+      "büro"
+    ],
+    "shipping": {
+      "weight": "0.5kg",
+      "dimensions": "20cm x 15cm x 10cm",
+      "free_shipping": true,
+      "estimated_delivery": "3-5 Werktage"
     },
-    "warrantyInformation": "No warranty",
-    "shippingInformation": "Ships in 1-2 business days",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "GesprächigenKollegenVermeider",
         "rating": 5,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nicholas Edwards",
-        "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
+        "comment": "Das 'Serverraum in Flammen'-Szenario funktioniert jedes Mal! Beste Investition aller Zeiten."
       },
       {
-        "rating": 5,
-        "comment": "Awesome product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Zachary Lee",
-        "reviewerEmail": "zachary.lee@x.dummyjson.com"
-      },
-      {
+        "user": "RuheSuchender",
         "rating": 4,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nova Cooper",
-        "reviewerEmail": "nova.cooper@x.dummyjson.com"
+        "comment": "Tolles Produkt, aber meine Kollegen werden misstrauisch wegen all meiner 'Notfälle'."
       }
     ],
-    "returnPolicy": "60 days return policy",
-    "minimumOrderQuantity": 43,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "5906686116469",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Gesprächs-Beendigungs-Telefon",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp"
+      "https://placehold.co/800x600?text=Gesprächs-Beendigungs-Telefon+1",
+      "https://placehold.co/800x600?text=Gesprächs-Beendigungs-Telefon+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp"
+    "stock": 31,
+    "featured": false
   },
   {
     "id": 23,
-    "title": "Eggs",
-    "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
-    "category": "groceries",
-    "price": 2.99,
-    "discountPercentage": 11.05,
-    "rating": 2.53,
-    "stock": 9,
-    "tags": [
-      "dairy"
+    "title": "Ergonomischer Ausreden-Stuhl",
+    "description": "Bürostuhl, der auf Kommando realistische Knarr- und Brechgeräusche macht. Perfekt, um Videoanrufen oder unerwünschten Aufgaben zu entkommen!",
+    "price": 199.99,
+    "rating": 4.6,
+    "brand": "FluchtKünstler",
+    "sku": "EEC-023-BLK",
+    "categories": [
+      "Möbel",
+      "Stühle",
+      "Ausreden"
     ],
-    "sku": "GRO-BRD-EGG-023",
-    "weight": 2,
-    "dimensions": {
-      "width": 11.42,
-      "height": 7.44,
-      "depth": 16.95
+    "tags": [
+      "stuhl",
+      "ergonomisch",
+      "ausrede",
+      "videoanrufe"
+    ],
+    "shipping": {
+      "weight": "15kg",
+      "dimensions": "60cm x 60cm x 120cm",
+      "free_shipping": true,
+      "estimated_delivery": "5-7 Werktage"
     },
-    "warrantyInformation": "1 week warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 3,
-        "comment": "Disappointing product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Penelope King",
-        "reviewerEmail": "penelope.king@x.dummyjson.com"
+        "user": "BesprechungsFlüchtling",
+        "rating": 5,
+        "comment": "Der 'Stuhl-Zusammenbruch'-Soundeffekt hat mich aus einer 2-stündigen Budgetprüfung gerettet. Jeden Cent wert!"
       },
       {
-        "rating": 3,
-        "comment": "Poor quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Eleanor Tyler",
-        "reviewerEmail": "eleanor.tyler@x.dummyjson.com"
-      },
-      {
+        "user": "HeimarbeiterProfi",
         "rating": 4,
-        "comment": "Very pleased!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Benjamin Foster",
-        "reviewerEmail": "benjamin.foster@x.dummyjson.com"
+        "comment": "Soundeffekte sind großartig, aber ich wünschte, es gäbe mehr Abwechslung für häufige Nutzer wie mich."
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 32,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "3478638588469",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Ergonomischer+Ausreden-Stuhl",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp"
+      "https://placehold.co/800x600?text=Ergonomischer+Ausreden-Stuhl+1",
+      "https://placehold.co/800x600?text=Ergonomischer+Ausreden-Stuhl+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp"
+    "stock": 15,
+    "featured": true
   },
   {
     "id": 24,
-    "title": "Fish Steak",
-    "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
-    "category": "groceries",
-    "price": 14.99,
-    "discountPercentage": 4.23,
-    "rating": 3.78,
-    "stock": 74,
-    "tags": [
-      "seafood"
+    "title": "Passiv-Aggressiver Heftklammer-Entferner",
+    "description": "Heftklammer-Entferner, der laut seufzt, wenn er benutzt wird. Perfekt, um deine Gefühle über unnötigen Papierkram auszudrücken!",
+    "price": 9.99,
+    "rating": 4.3,
+    "brand": "PassivAggressiv",
+    "sku": "PASR-024-RED",
+    "categories": [
+      "Bürobedarf",
+      "Schreibtischzubehör"
     ],
-    "sku": "GRO-BRD-FIS-024",
-    "weight": 6,
-    "dimensions": {
-      "width": 14.95,
-      "height": 26.31,
-      "depth": 11.27
+    "tags": [
+      "heftklammer-entferner",
+      "passiv-aggressiv",
+      "papierkram"
+    ],
+    "shipping": {
+      "weight": "0.1kg",
+      "dimensions": "10cm x 5cm x 3cm",
+      "free_shipping": false,
+      "estimated_delivery": "1-3 Werktage"
     },
-    "warrantyInformation": "1 month warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 2,
-        "comment": "Would not buy again!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Caleb Perkins",
-        "reviewerEmail": "caleb.perkins@x.dummyjson.com"
-      },
-      {
+        "user": "PapierkramHasser",
         "rating": 5,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Isabella Jackson",
-        "reviewerEmail": "isabella.jackson@x.dummyjson.com"
+        "comment": "Endlich etwas, das genau ausdrückt, wie ich über TPS-Berichte denke!"
       },
       {
-        "rating": 4,
-        "comment": "Great value for money!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nathan Dixon",
-        "reviewerEmail": "nathan.dixon@x.dummyjson.com"
+        "user": "RuhigerBüroarbeiter",
+        "rating": 3,
+        "comment": "Lustig, aber etwas laut für unser Großraumbüro. Mein Manager schaut mich ständig an."
       }
     ],
-    "returnPolicy": "60 days return policy",
-    "minimumOrderQuantity": 50,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "9595036192098",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Passiv-Aggressiver+Heftklammer-Entferner",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp"
+      "https://placehold.co/800x600?text=Passiv-Aggressiver+Heftklammer-Entferner+1",
+      "https://placehold.co/800x600?text=Passiv-Aggressiver+Heftklammer-Entferner+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp"
+    "stock": 120,
+    "featured": false
   },
   {
     "id": 25,
-    "title": "Green Bell Pepper",
-    "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
-    "category": "groceries",
-    "price": 1.29,
-    "discountPercentage": 0.16,
-    "rating": 3.25,
-    "stock": 33,
-    "tags": [
-      "vegetables"
+    "title": "Frist-Verlängernder Bleistift",
+    "description": "Bleistift, der jeder Frist, die du aufschreibst, einen zusätzlichen Tag hinzufügt. Je mehr du schreibst, desto mehr Zeit bekommst du!",
+    "price": 7.95,
+    "rating": 4.4,
+    "brand": "ZeitVerschieber",
+    "sku": "DEP-025-BLK",
+    "categories": [
+      "Schreibwaren",
+      "Zeitmanagement",
+      "Bürobedarf"
     ],
-    "sku": "GRO-BRD-GRE-025",
-    "weight": 2,
-    "dimensions": {
-      "width": 15.33,
-      "height": 26.65,
-      "depth": 14.44
+    "tags": [
+      "bleistift",
+      "frist",
+      "zeitmanagement",
+      "schreiben"
+    ],
+    "shipping": {
+      "weight": "0.05kg",
+      "dimensions": "18cm x 1cm x 1cm",
+      "free_shipping": false,
+      "estimated_delivery": "1-2 Werktage"
     },
-    "warrantyInformation": "1 month warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Avery Carter",
-        "reviewerEmail": "avery.carter@x.dummyjson.com"
-      },
-      {
-        "rating": 3,
-        "comment": "Would not recommend!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Henry Hill",
-        "reviewerEmail": "henry.hill@x.dummyjson.com"
-      },
-      {
+        "user": "ImmerZuSpät",
         "rating": 5,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Addison Wright",
-        "reviewerEmail": "addison.wright@x.dummyjson.com"
+        "comment": "Ich habe die ganze Woche meine Fristen geschrieben und umgeschrieben. Mein Projekt ist jetzt erst 2025 fällig!"
+      },
+      {
+        "user": "ProkrastinationsProfi",
+        "rating": 4,
+        "comment": "Funktioniert super, aber mein Chef wird misstrauisch wegen all dieser sich verschiebenden Fristen."
       }
     ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 12,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "2365227493323",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Frist-Verlängernder+Bleistift",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp"
+      "https://placehold.co/800x600?text=Frist-Verlängernder+Bleistift+1",
+      "https://placehold.co/800x600?text=Frist-Verlängernder+Bleistift+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp"
+    "stock": 200,
+    "featured": false
   },
   {
     "id": 26,
-    "title": "Green Chili Pepper",
-    "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
-    "category": "groceries",
-    "price": 0.99,
-    "discountPercentage": 1,
-    "rating": 3.66,
-    "stock": 3,
-    "tags": [
-      "vegetables"
+    "title": "Selbstvertrauen-Steigerndes Notizbuch",
+    "description": "Notizbuch, das deine Handschrift und Ideen auf jeder Seite lobt. Enthält spezielles Papier, das selbst schreckliche Skizzen professionell aussehen lässt!",
+    "price": 16.99,
+    "rating": 4.5,
+    "brand": "PositivPapierkram",
+    "sku": "CBN-026-BLU",
+    "categories": [
+      "Notizbücher",
+      "Motivation",
+      "Bürobedarf"
     ],
-    "sku": "GRO-BRD-GRE-026",
-    "weight": 7,
-    "dimensions": {
-      "width": 15.38,
-      "height": 18.12,
-      "depth": 19.92
+    "tags": [
+      "notizbuch",
+      "selbstvertrauen",
+      "motivation",
+      "schreiben"
+    ],
+    "shipping": {
+      "weight": "0.3kg",
+      "dimensions": "21cm x 15cm x 2cm",
+      "free_shipping": false,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "2 year warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "Low Stock",
     "reviews": [
       {
+        "user": "SchlechterKünstler",
+        "rating": 5,
+        "comment": "Meine Strichmännchen sehen in diesem Notizbuch aus wie Picasso-Zeichnungen! Sofortiger Selbstvertrauensschub."
+      },
+      {
+        "user": "IdeenVerdoppler",
         "rating": 4,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Luna Russell",
-        "reviewerEmail": "luna.russell@x.dummyjson.com"
-      },
-      {
-        "rating": 1,
-        "comment": "Waste of money!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Noah Lewis",
-        "reviewerEmail": "noah.lewis@x.dummyjson.com"
-      },
-      {
-        "rating": 3,
-        "comment": "Very disappointed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Clara Berry",
-        "reviewerEmail": "clara.berry@x.dummyjson.com"
+        "comment": "Ich liebe, wie es selbst meine schlechtesten Ideen brillant erscheinen lässt. Obwohl dies zu einigen fragwürdigen Projektvorschlägen geführt hat."
       }
     ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 39,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "9335000538563",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Selbstvertrauen-Steigerndes+Notizbuch",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp"
+      "https://placehold.co/800x600?text=Selbstvertrauen-Steigerndes+Notizbuch+1",
+      "https://placehold.co/800x600?text=Selbstvertrauen-Steigerndes+Notizbuch+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp"
+    "stock": 85,
+    "featured": false
   },
   {
     "id": 27,
-    "title": "Honey Jar",
-    "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
-    "category": "groceries",
-    "price": 6.99,
-    "discountPercentage": 14.4,
-    "rating": 3.97,
-    "stock": 34,
-    "tags": [
-      "condiments"
+    "title": "Sofort-Alibi-Generator",
+    "description": "Kleines Gerät, das glaubwürdige Hintergrundgeräusche erzeugt, wenn du von zu Hause aus arbeitest, aber nicht wirklich arbeitest. Enthält 'Baugeräusche', 'weinendes Baby' und 'schreckliche Internetverbindung'.",
+    "price": 32.99,
+    "rating": 4.9,
+    "brand": "HeimarbeitAusreden",
+    "sku": "IAG-027-WHT",
+    "categories": [
+      "Heimarbeit",
+      "Gadgets",
+      "Audio"
     ],
-    "sku": "GRO-BRD-HON-027",
-    "weight": 2,
-    "dimensions": {
-      "width": 9.28,
-      "height": 21.72,
-      "depth": 17.74
+    "tags": [
+      "alibi",
+      "heimarbeit",
+      "hintergrundgeräusche",
+      "ausreden"
+    ],
+    "shipping": {
+      "weight": "0.3kg",
+      "dimensions": "12cm x 8cm x 4cm",
+      "free_shipping": true,
+      "estimated_delivery": "2-4 Werktage"
     },
-    "warrantyInformation": "1 month warranty",
-    "shippingInformation": "Ships in 1-2 business days",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 1,
-        "comment": "Very disappointed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Autumn Gomez",
-        "reviewerEmail": "autumn.gomez@x.dummyjson.com"
+        "user": "PyjamaProfessioneller",
+        "rating": 5,
+        "comment": "Der 'instabile Internetverbindung'-Soundeffekt hat mich vor so vielen Kamera-an-Meetings gerettet!"
       },
       {
-        "rating": 4,
-        "comment": "Highly impressed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Benjamin Wilson",
-        "reviewerEmail": "benjamin.wilson@x.dummyjson.com"
-      },
-      {
-        "rating": 2,
-        "comment": "Very disappointed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nicholas Edwards",
-        "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
+        "user": "HeimarbeitMeister",
+        "rating": 5,
+        "comment": "Ich 'kümmere mich seit drei Tagen um einen Klempner-Notfall'. Niemand vermutet etwas!"
       }
     ],
-    "returnPolicy": "90 days return policy",
-    "minimumOrderQuantity": 47,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "6354306346329",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Sofort-Alibi-Generator",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp"
+      "https://placehold.co/800x600?text=Sofort-Alibi-Generator+1",
+      "https://placehold.co/800x600?text=Sofort-Alibi-Generator+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp"
+    "stock": 27,
+    "featured": true
   },
   {
     "id": 28,
-    "title": "Ice Cream",
-    "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
-    "category": "groceries",
-    "price": 5.49,
-    "discountPercentage": 8.69,
-    "rating": 3.39,
-    "stock": 27,
-    "tags": [
-      "desserts"
+    "title": "Bürokratie-Bekämpfendes Stempelset",
+    "description": "Set von Stempeln mit Phrasen wie 'Absolut Nicht', 'Siehe vorherige E-Mail' und 'Nicht meine Abteilung'. Reduziert die Tippzeit für gängige Büroantworten um 90%!",
+    "price": 21.95,
+    "rating": 4.7,
+    "brand": "EffizienzExperten",
+    "sku": "BBS-028-RED",
+    "categories": [
+      "Stempel",
+      "Kommunikation",
+      "Bürobedarf"
     ],
-    "sku": "GRO-BRD-CRE-028",
-    "weight": 1,
-    "dimensions": {
-      "width": 14.83,
-      "height": 15.07,
-      "depth": 24.2
+    "tags": [
+      "stempel",
+      "bürokratie",
+      "kommunikation",
+      "effizienz"
+    ],
+    "shipping": {
+      "weight": "0.4kg",
+      "dimensions": "15cm x 10cm x 5cm",
+      "free_shipping": true,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "1 month warranty",
-    "shippingInformation": "Ships in 2 weeks",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "FormularHasser",
         "rating": 5,
-        "comment": "Very pleased!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Elijah Cruz",
-        "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+        "comment": "Der 'Das hätte eine E-Mail sein können'-Stempel hat meine Besprechungsnotizen für immer verändert!"
       },
       {
-        "rating": 4,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Jace Smith",
-        "reviewerEmail": "jace.smith@x.dummyjson.com"
-      },
-      {
+        "user": "ÜberarbeiteterManager",
         "rating": 5,
-        "comment": "Highly impressed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Sadie Morales",
-        "reviewerEmail": "sadie.morales@x.dummyjson.com"
+        "comment": "Ich stempel freitagnachmittags einfach 'Später darauf zurückkommen' auf alles. Lebensverändernd!"
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 42,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "0788954559076",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Bürokratie-Bekämpfendes+Stempelset",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp",
-      "https://cdn.dummyjson.com/product-images/groceries/ice-cream/2.webp",
-      "https://cdn.dummyjson.com/product-images/groceries/ice-cream/3.webp",
-      "https://cdn.dummyjson.com/product-images/groceries/ice-cream/4.webp"
+      "https://placehold.co/800x600?text=Bürokratie-Bekämpfendes+Stempelset+1",
+      "https://placehold.co/800x600?text=Bürokratie-Bekämpfendes+Stempelset+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp"
+    "stock": 62,
+    "featured": false
   },
   {
     "id": 29,
-    "title": "Juice",
-    "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
-    "category": "groceries",
-    "price": 3.99,
-    "discountPercentage": 12.06,
-    "rating": 3.94,
-    "stock": 50,
-    "tags": [
-      "beverages"
+    "title": "Arbeitsplatz-Überlebens-Multiwerkzeug",
+    "description": "Schweizer Taschenmesser-artiges Werkzeug mit Heftklammer-Entferner, winzigem Weinflaschenöffner, Kopfhörer-Entwirrer und Notfall-Schokoladenfach. Sei auf jeden Büronotfall vorbereitet!",
+    "price": 25.99,
+    "rating": 4.8,
+    "brand": "BüroVorbereiter",
+    "sku": "WSM-029-SLV",
+    "categories": [
+      "Werkzeuge",
+      "Notfall",
+      "Schreibtischzubehör"
     ],
-    "sku": "GRO-BRD-JUI-029",
-    "weight": 1,
-    "dimensions": {
-      "width": 18.56,
-      "height": 21.46,
-      "depth": 28.02
+    "tags": [
+      "multiwerkzeug",
+      "überleben",
+      "büro",
+      "notfall"
+    ],
+    "shipping": {
+      "weight": "0.2kg",
+      "dimensions": "10cm x 3cm x 2cm",
+      "free_shipping": true,
+      "estimated_delivery": "2-4 Werktage"
     },
-    "warrantyInformation": "6 months warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
+        "user": "BüroboxKrieger",
         "rating": 5,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nolan Gonzalez",
-        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        "comment": "Die Notfall-Schokolade hat mich während einer besonders brutalen Quartalsbesprechung gerettet!"
       },
       {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Bella Grant",
-        "reviewerEmail": "bella.grant@x.dummyjson.com"
-      },
-      {
+        "user": "VorbereiteterProfi",
         "rating": 5,
-        "comment": "Awesome product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Aria Flores",
-        "reviewerEmail": "aria.flores@x.dummyjson.com"
+        "comment": "Ich habe jedes Werkzeug an diesem Ding benutzt. Der winzige Korkenzieher ist freitags überraschend nützlich."
       }
     ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 25,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "6936112580956",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Arbeitsplatz-Überlebens-Multiwerkzeug",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp"
+      "https://placehold.co/800x600?text=Arbeitsplatz-Überlebens-Multiwerkzeug+1",
+      "https://placehold.co/800x600?text=Arbeitsplatz-Überlebens-Multiwerkzeug+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp"
+    "stock": 48,
+    "featured": false
   },
   {
     "id": 30,
-    "title": "Kiwi",
-    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
-    "category": "groceries",
-    "price": 2.49,
-    "discountPercentage": 15.22,
-    "rating": 4.93,
-    "stock": 99,
-    "tags": [
-      "fruits"
+    "title": "Pflicht-Spaß-Detektor",
+    "description": "Kleines Gerät, das piept, wenn 'Teambuilding'- oder 'Pflicht-Spaß'-Veranstaltungen angekündigt werden sollen. Gibt dir Zeit, Ausreden vorzubereiten oder plötzlich eine leichte Krankheit zu entwickeln!",
+    "price": 19.99,
+    "rating": 4.9,
+    "brand": "TeambuildingVermeider",
+    "sku": "MFD-030-BLK",
+    "categories": [
+      "Gadgets",
+      "Bürokultur",
+      "Tarnung"
     ],
-    "sku": "GRO-BRD-KIW-030",
-    "weight": 5,
-    "dimensions": {
-      "width": 19.4,
-      "height": 18.67,
-      "depth": 17.13
+    "tags": [
+      "teambuilding",
+      "spaß",
+      "detektor",
+      "ausreden"
+    ],
+    "shipping": {
+      "weight": "0.2kg",
+      "dimensions": "8cm x 5cm x 3cm",
+      "free_shipping": false,
+      "estimated_delivery": "2-3 Werktage"
     },
-    "warrantyInformation": "6 months warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Emily Brown",
-        "reviewerEmail": "emily.brown@x.dummyjson.com"
+        "user": "IntrovertierterMitarbeiter",
+        "rating": 5,
+        "comment": "Dieses Gerät hat mich vor der Überraschungs-Karaoke-Veranstaltung gewarnt. Ich habe gerade rechtzeitig eine 'Halsentzündung' entwickelt!"
       },
       {
-        "rating": 2,
-        "comment": "Would not buy again!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Jackson Morales",
-        "reviewerEmail": "jackson.morales@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Fast shipping!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Nora Russell",
-        "reviewerEmail": "nora.russell@x.dummyjson.com"
+        "user": "TeambuildingHasser",
+        "rating": 5,
+        "comment": "Musste kein einziges Vertrauensfall-Spiel spielen, seit ich das habe. Jeden Cent wert!"
       }
     ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 30,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "2530169917252",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
+    "thumbnail": "https://placehold.co/400x300?text=Pflicht-Spaß-Detektor",
     "images": [
-      "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp"
+      "https://placehold.co/800x600?text=Pflicht-Spaß-Detektor+1",
+      "https://placehold.co/800x600?text=Pflicht-Spaß-Detektor+2"
     ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp"
+    "stock": 37,
+    "featured": true
   }
 ]
