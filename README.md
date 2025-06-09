@@ -11,6 +11,8 @@ All commands are run from the root of the project, from a terminal:
 
 # Astro Workshop – Aufgabenstruktur
 
+Falls du nicht weiterkommst, kannst du dir die Musterlösung im `feat/solve` Branch anschauen.
+
 ## ▶️ Aufgabe 0: Aufsetzen & Projektstruktur
 **Ziel:** Projekt aufsetzen und erste Komponentenstruktur verstehen
 
