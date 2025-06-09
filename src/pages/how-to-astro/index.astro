@@ -1,7 +1,10 @@
 ---
+import Layout from "@/layouts/SlideLayout.astro"
 const nextSlide = '/how-to-astro/dateistruktur';
 const prevSlide = '/ueber-astro/beispiel';
 const slideId = 8;
 ---
 
-<h1>How to Astro</h1>
+<Layout next={nextSlide} prev={prevSlide} slideId={slideId}>
+    <h1>How to Astro</h1>
+</Layout>

@@ -1,0 +1,9 @@
+---
+const baseUrl = import.meta.env.PUBLIC_BASE_URL || '/';
+const res = await fetch(`http://www.randomnumberapi.com/api/v1.0/random`, { headers: { accept: 'application/json' } });
+const data = await res.json();
+---
+
+<p class="text-sm text-red-800">
+  Nur noch <span class="font-semibold">{data}</span> verfügbar!
+</p>

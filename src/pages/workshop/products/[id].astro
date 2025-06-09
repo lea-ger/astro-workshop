@@ -1,9 +1,17 @@
 ---
 import Layout from '@/layouts/WorkshopLayout.astro';
 import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import ProductTabs from '@/components/ProductTabs.vue';
+import AvailabilityMessage from "../../../components/AvailabilityMessage.astro";
 
 export function getStaticPaths() {
-  return []
+  return getCollection('products').then((products) => {
+    return products.map((product) => ({
+      params: { id: product.id },
+      props: { product },
+    }));
+  });
 }
 const { product } = Astro.props;
 ---
@@ -34,13 +42,13 @@ const { product } = Astro.props;
 
                 <p class="text-sm text-gray-500">Verfügbarkeit: {product.data.stock > 0 ? 'Auf Lager' : 'Nicht verfügbar'}</p>
 
+                <AvailabilityMessage server:defer />
+
                 <div class="pt-6 border-t">
-                    <p class="italic text-sm text-gray-500 mb-2">
-                        👉 Hier soll eine interaktive Tab-Komponente eingebunden werden.
-                    </p>
-                    <div class="border rounded p-4 text-center text-gray-400">
-                        <em>[ProductTabs Komponente kommt hier hin]</em>
-                    </div>
+                    <ProductTabs
+                        client:visible
+                        product={product.data}
+                    />
                 </div>
 
                 <!-- Zurück-Link -->

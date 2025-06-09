@@ -1,8 +1,10 @@
 ---
+import { Image } from 'astro:assets';
+import Hero from '@/assets/hero.jpg';
 ---
 <section class="relative min-h-[50vh] overflow-hidden">
-    <img
-            src="hero.jpg"
+    <Image
+            src={Hero}
             alt="Shop Hero"
             class="absolute inset-0 w-full h-full object-cover"
             style="filter: brightness(0.6)"

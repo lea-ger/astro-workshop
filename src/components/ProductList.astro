@@ -1,8 +1,15 @@
 ---
 import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
 
-const products: {id: number, title: string, thumbnail: string, price: number} [] = [] // Lade aus der Collection
-
+const productData = await getCollection('products')
+const products = productData.map((product) => ({
+  id: product.id,
+  title: product.data.title,
+  price: product.data.price,
+  thumbnail: product.data.thumbnail,
+  images: product.data.images,
+}));
 ---
 
 <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
