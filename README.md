@@ -73,3 +73,18 @@ Client-Island für die Tab-Logik.
 
 ---
 
+## ⚡️ Aufgabe 5: Server Island – Verfügbarkeitsanzeige mit Live-Daten
+
+**Ziel:** Lerne, wie du eine [https://docs.astro.build/de/guides/server-islands/](Server-Komponente (Server Island)) in Astro verwendest, um dynamische Daten direkt auf dem Server zu rendern.
+
+### Schritte:
+
+* Erstelle eine neue Komponente, z.B. `AvailabilityMessage.astro` in `src/components/`.
+*  Die Komponente soll auf dem Server gerendert werden und die aktuelle Verfügbarkeit eines Produkts anzeigen.
+*  Hole dir die Verfügbarkeitsdaten über einen Fetch-Request von der internen API-Route `/workshop/api/availability`.
+*  Binde die Komponente auf der Produktseite (`[id].astro`) ein.
+*  Die Ausgabe soll z.B. so aussehen:  
+   `Nur noch <span class="font-semibold">{data.available}</span> verfügbar!`
+*  Starte den Node-Server
+
+---
