@@ -11,7 +11,7 @@ All commands are run from the root of the project, from a terminal:
 
 # Astro Workshop – Aufgabenstruktur
 
-## Aufgabe 0: Aufsetzen & Projektstruktur
+## ▶️ Aufgabe 0: Aufsetzen & Projektstruktur
 **Ziel:** Projekt aufsetzen und erste Komponentenstruktur verstehen
 ### Vorgaben:
 * Installiere die dependencies mit `npm install`.

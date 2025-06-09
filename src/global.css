@@ -25,7 +25,7 @@ p {
 }
 
 a {
-    @apply text-xl mb-4 text-blue-300 underline;
+    @apply mb-4 text-blue-300 underline;
 }
 
 ul {
