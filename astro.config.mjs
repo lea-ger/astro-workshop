@@ -11,18 +11,23 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [icon(), mdx(), react()],
+    integrations: [icon(), mdx(), react()],
 
-  vite: {
-      plugins: [tailwindcss()],
-      resolve: {
-          alias: {
-              "@": new URL("./src", import.meta.url).pathname,
-          },
-      },
-  },
+    vite: {
+        plugins: [tailwindcss()],
+        resolve: {
+            alias: {
+                "@": new URL("./src", import.meta.url).pathname,
+            },
+        },
+    },
 
-  adapter: node({
-    mode: "standalone",
-  }),
+    image: {
+        domains: ["astro.build", "https://placecats.com"],
+    },
+
+    adapter: node({
+        mode: "standalone",
+    }),
+
 });
