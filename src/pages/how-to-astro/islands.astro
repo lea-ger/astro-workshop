@@ -1,20 +1,22 @@
 ---
 import Layout from "@/layouts/SlideLayout.astro";
-import { Code } from 'astro:components';
+import {Image} from "astro:assets";
+import Islands from "@/assets/islands.png";
 ---
 
-<Layout next="/how-to-astro/islands/frameworks" prev="/how-to-astro/components" slideId="14">
+<Layout next="/how-to-astro/islands-2" prev="/how-to-astro/components" slideId="14">
     <h1>Astro Islands</h1>
 
     <p>Astro Islands (auch "Component Islands" genannt) ermöglichen <strong>interaktive UI-Komponenten</strong> in einer ansonsten statischen Seite.</p>
 
     <div class="grid grid-cols-2 gap-8 mt-8">
-        <div>
+        <div data-step>
             <h3>Das Konzept</h3>
-            <img src="https://docs.astro.build/islands-architecture.png" alt="Astro Islands Architecture" class="w-full rounded-lg shadow-lg" />
-            
             <p class="mt-4">Jede interaktive Komponente ist eine "Insel" von Dynamik in einem Meer aus statischem HTML.</p>
-            
+
+            <Image src={Islands} alt="Astro Islands Architecture" class="w-full rounded-lg shadow-lg" />
+        </div>
+        <div data-step>
             <h3 class="mt-6">Vorteile</h3>
             <ul>
                 <li><strong>Performance:</strong> Nur notwendiges JavaScript wird geladen</li>
@@ -22,35 +24,7 @@ import { Code } from 'astro:components';
                 <li><strong>Flexibilität:</strong> Verschiedene Frameworks mischbar</li>
                 <li><strong>Progressives Enhancement:</strong> Funktioniert auch ohne JavaScript</li>
             </ul>
-        </div>
-        <div>
-            <h3>Beispiel: Interaktive Komponente</h3>
-            <Code code={`
----
-import Counter from '../components/Counter.jsx';
----
-<h1>Willkommen zu meiner Seite</h1>
 
-<!-- Statischer Inhalt -->
-<p>Dies ist statisches HTML ohne JavaScript.</p>
-
-<!-- Interaktive Insel -->
-<Counter client:load initial={0} />
-
-<!-- Mehr statischer Inhalt -->
-<footer>© 2023 Meine Website</footer>
-            `} lang="astro" />
-            
-            <h3 class="mt-6">Hydration-Strategien</h3>
-            <ul>
-                <li><code>client:load</code> - Sofort laden und hydratisieren</li>
-                <li><code>client:idle</code> - Hydratisieren, wenn der Browser idle ist</li>
-                <li><code>client:visible</code> - Hydratisieren, wenn im Viewport</li>
-                <li><code>client:media="(max-width: 768px)"</code> - Bei Media-Query</li>
-                <li><code>client:only="react"</code> - Nur clientseitig rendern</li>
-            </ul>
-            
-            <p class="mt-4">Dieses Konzept unterscheidet sich von monolithischen SPA-Frameworks wie React oder Vue, die typischerweise die gesamte Seite hydratisieren.</p>
         </div>
     </div>
 </Layout>

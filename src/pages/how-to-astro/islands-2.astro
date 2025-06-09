@@ -1,0 +1,43 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+import {Code} from 'astro:components';
+import Counter from '@/components/Counter.jsx';
+---
+
+<Layout next="/how-to-astro/islands/frameworks" prev="/how-to-astro/islands" slideId="15">
+    <h1>Astro Islands</h1>
+
+    <div class="grid grid-cols-2 gap-8 mt-8">
+        <div>
+            <h3>Beispiel: Interaktive Komponente
+                <pre>Counter.jsx</pre>
+            </h3>
+            <Code code={`
+import {useState} from 'react';
+
+export default function Counter({initial = 0}) {
+    const [count, setCount] = useState(initial);
+    return (
+        <div className="flex items-center gap-4">
+            <button onClick={() => setCount(count - 1)}>
+                -
+            </button>
+            <span style={{minWidth: 32, textAlign: 'center'}}>
+                {count}
+            </span>
+            <button onClick={() => setCount(count + 1)}>
+                +
+            </button>
+        </div>
+    );
+}
+`} lang="jsx"/>
+        </div>
+        <div data-step>
+            <div class="mt-6 p-4 border border-purple-500 rounded-lg bg-purple-900/20">
+                <p class="mb-2">Live-Demo:</p>
+                <Counter initial={0} client:load />
+            </div>
+        </div>
+    </div>
+</Layout>
