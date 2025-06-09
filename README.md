@@ -31,7 +31,8 @@ All commands are run from the root of the project, from a terminal:
 
 1. Öffne `src/components/Hero.astro` und verschaffe dir einen Überblick über den Code.
 2. Ersetze das `<img src="/assets/hero.jpg" ...>` durch das `<Image />`-Component von Astro.
-3. Stelle sicher, dass das Bild optimiert wird. Du kannst die `srcset`-Attribute nutzen, um verschiedene Bildgrößen zu definieren.
+3. Verschiebe das Bild in den `src/assets/`-Ordner, falls es dort noch nicht ist.
+4. Stelle sicher, dass das Bild optimiert wird.
 
 ---
 
@@ -41,7 +42,7 @@ All commands are run from the root of the project, from a terminal:
 
 ### Schritte:
 
-1. Definiere in `src/content/config.ts` die Collection `products` mit den Daten aus `src/data/products.json`. Du kannst auch mit Zod ein passendes Schema erstellen.
+1. Definiere in `src/content.config.ts` die Collection `products` mit den Daten aus `src/data/products.json`. Du kannst auch mit Zod ein passendes Schema erstellen.
 2. Öffne `src/components/ProductList.astro` und ersetze das leere Array mit der Collection (`getCollection`).
 3. Stelle sicher, dass Vorschaubild, Titel und Preis angezeigt werden.
 
@@ -80,11 +81,10 @@ Client-Island für die Tab-Logik.
 ### Schritte:
 
 * Erstelle eine neue Komponente, z.B. `AvailabilityMessage.astro` in `src/components/`.
-*  Die Komponente soll auf dem Server gerendert werden und die aktuelle Verfügbarkeit eines Produkts anzeigen.
-*  Hole dir die Verfügbarkeitsdaten über einen Fetch-Request von der internen API-Route `/workshop/api/availability`.
-*  Binde die Komponente auf der Produktseite (`[id].astro`) ein.
+*  Hole dir die Verfügbarkeitsdaten über einen Fetch-Request von dieser URL: `http://www.randomnumberapi.com/api/v1.0/random`.
+*  Binde die Komponente auf der Produktseite (`[id].astro`) mit der `server:defer` directive ein.
 *  Die Ausgabe soll z.B. so aussehen:  
-   `Nur noch <span class="font-semibold">{data.available}</span> verfügbar!`
-*  Starte den Node-Server
+   `Nur noch <span class="font-semibold">{data}</span> verfügbar!`
+*  Prüfe deinen Netzwerk-Tab im Browser, um zu sehen, wie die Daten geladen werden. Der Inhalt sollte vom dev-Server als HTML ausgeliefert werden.
 
 ---

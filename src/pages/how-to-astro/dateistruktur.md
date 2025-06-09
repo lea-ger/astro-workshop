@@ -4,7 +4,7 @@ title: Markdown-Seiten
 author: Leander Gerwing
 next: /how-to-astro/routing
 prev: /how-to-astro
-slideId: 11
+slideId: 9
 ---
 
 # Dateistruktur eines Astro-Projekts

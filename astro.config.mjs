@@ -9,9 +9,11 @@ import mdx from "@astrojs/mdx";
 
 import react from "@astrojs/react";
 
+import vue from "@astrojs/vue";
+
 // https://astro.build/config
 export default defineConfig({
-    integrations: [icon(), mdx(), react()],
+    integrations: [icon(), mdx(), react(), vue()],
 
     vite: {
         plugins: [tailwindcss()],
@@ -27,7 +29,7 @@ export default defineConfig({
     },
 
     adapter: node({
-        mode: "standalone",
+        mode: "middleware",
     }),
 
 });
