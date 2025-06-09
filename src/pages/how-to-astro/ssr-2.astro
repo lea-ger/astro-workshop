@@ -15,7 +15,7 @@ import { defineConfig } from 'astro/config';
 import node from '@astrojs/node';
 
 export default defineConfig({
-  output: 'server',  // 'static' (Standard) oder 'server'
+  output: 'server',
   
   adapter: node({
     mode: 'standalone' // oder 'middleware'
@@ -33,13 +33,16 @@ export default defineConfig({
 const { slug } = Astro.params;
 
 // Zugriff auf Request-Daten
-const userAgent = Astro.request.headers.get('user-agent');
-const referer = Astro.request.headers.get('referer');
+const userAgent = Astro.request
+    .headers.get('user-agent');
+const referer = Astro.request
+    .headers.get('referer');
 const ip = Astro.clientAddress;
 
 // Cookies lesen/setzen
 const cookies = Astro.cookies;
-const theme = cookies.get('theme')?.value || 'light';
+const theme = cookies.get('theme')?.value
+    || 'light';
 cookies.set('visited', 'true', { path: '/' });
 ---
 

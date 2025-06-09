@@ -13,19 +13,14 @@ import {Code} from 'astro:components';
 // src/content/config.ts
 import { defineCollection, z } from 'astro:content';
 
-// Schema für Blog-Beiträge definieren
+// Collection für Blog-Beiträge definieren
 const blogCollection = defineCollection({
-  schema: z.object({
-    title: z.string(),
-    date: z.date(),
-    author: z.string(),
-    tags: z.array(z.string()).optional(),
-    draft: z.boolean().default(false),
-  }),
+  loader: file("src/data/posts.json"),
 });
 
-// Schema für Produkte definieren
+// Collection (mit Schema) für Produkte definieren
 const productsCollection = defineCollection({
+  loader: /* ... */
   schema: z.object({
     name: z.string(),
     price: z.number(),
