@@ -1,5 +1,55 @@
 ---
+import Layout from '@/layouts/WorkshopLayout.astro';
+import { Image } from 'astro:assets';
+
 export function getStaticPaths() {
   return []
 }
+const { product } = Astro.props;
 ---
+
+<Layout>
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+            <!-- Produktbild -->
+            <div class="w-full">
+                <Image
+                        src={product.data.images[0]}
+                        alt={product.data.title}
+                        width={600}
+                        height={600}
+                        class="rounded-lg shadow"
+                />
+            </div>
+
+            <!-- Produktinformationen -->
+            <div class="w-full space-y-6">
+                <h1 class="text-4xl font-bold text-gray-900">{product.data.title}</h1>
+
+                <p class="text-xl text-gray-700">
+                  {product.data.description}
+                </p>
+
+                <p class="text-2xl font-semibold text-green-600">€{product.data.price}</p>
+
+                <p class="text-sm text-gray-500">Verfügbarkeit: {product.data.stock > 0 ? 'Auf Lager' : 'Nicht verfügbar'}</p>
+
+                <div class="pt-6 border-t">
+                    <p class="italic text-sm text-gray-500 mb-2">
+                        👉 Hier soll eine interaktive Tab-Komponente eingebunden werden.
+                    </p>
+                    <div class="border rounded p-4 text-center text-gray-400">
+                        <em>[ProductTabs Komponente kommt hier hin]</em>
+                    </div>
+                </div>
+
+                <!-- Zurück-Link -->
+                <div>
+                    <a href="/workshop" class="text-blue-600 hover:underline text-sm">
+                        ← Zurück zur Übersicht
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>

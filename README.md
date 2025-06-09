@@ -13,13 +13,14 @@ All commands are run from the root of the project, from a terminal:
 
 ## ▶️ Aufgabe 0: Aufsetzen & Projektstruktur
 **Ziel:** Projekt aufsetzen und erste Komponentenstruktur verstehen
-### Vorgaben:
+
+### Schritte:
 * Installiere die dependencies mit `npm install`.
 * Starte den lokalen Server mit `npm run dev` und öffne den "Work-Shop" unter `localhost:4321/workshop`.
 
 ## 🌟 Aufgabe 1: Projektstruktur & Astro Image kennen lernen
 
-**Ziel:** Einstieg ins Projekt, Code-Aufbau verstehen und Bildoptimierung mit Astro Assets nutzen
+**Ziel:** Einstieg ins Projekt, Code-Aufbau verstehen und Bildoptimierung mit [https://docs.astro.build/de/guides/images/](Astro Assets) nutzen
 
 ### Vorgaben:
 
@@ -36,16 +37,11 @@ All commands are run from the root of the project, from a terminal:
 
 ## 📋 Aufgabe 2: Produkt-Collection erstellen & ProductList anpassen
 
-**Ziel:** Erstelle eine Astro-Collection für die Produktdaten und nutze `getCollection` in `<ProductList />`.
-
-### Vorgaben:
-
-* Datei `src/data/products.json` mit 30 Produkten liegt vor.
-* In `src/content/config.ts` ist bereits ein leerer Collection-Eintrag für `products` vorgesehen.
+**Ziel:** Erstelle eine [https://docs.astro.build/de/guides/content-collections/](Astro-Collection) für die Produktdaten und nutze `getCollection` in `<ProductList />`.
 
 ### Schritte:
 
-1. Definiere in `src/content/config.ts` die Collection `products`. Du kannst auch mit Zod ein passendes Schema erstellen
+1. Definiere in `src/content/config.ts` die Collection `products` mit den Daten aus `src/data/products.json`. Du kannst auch mit Zod ein passendes Schema erstellen.
 2. Öffne `src/components/ProductList.astro` und ersetze das leere Array mit der Collection (`getCollection`).
 3. Stelle sicher, dass Vorschaubild, Titel und Preis angezeigt werden.
 
@@ -53,21 +49,18 @@ All commands are run from the root of the project, from a terminal:
 
 ## 📦 Aufgabe 3: Dynamische Produktseiten & Static Paths
 
-**Ziel:** Nutze die Collection, um Static Paths zu erstellen und Produktseiten mit `getEntryBySlug` zu befüllen.
-
-### Vorgaben:
-* Eine Datei unter `src/pages/products/[slug].astro` existiert bereits.
+**Ziel:** Nutze die Collection, um [https://docs.astro.build/de/core-concepts/routing/](Static Paths zu erstellen) und Produktseiten mit `getEntryBySlug` zu befüllen.
 
 ### Schritte:
 
-1. Implementiere `getStaticPaths()` mit `getCollection`, um die Seiten generieren zu lassen.
+1. Implementiere unter `src/pages/products/[id].astro` die `getStaticPaths()` Methode mit `getCollection`, um die Seiten generieren zu lassen.
 2. Rufe eines der Produkte auf, um die dynamische Seite zu testen.
 
 ---
 
 ## 🗂 Aufgabe 4: Tabs als Client-Island
 
-**Ziel:** Erstelle eine interaktive Tab-Komponente, um verschiedene Produktinformationen zu präsentieren. Nutze ein
+**Ziel:** Erstelle eine interaktive Tab-Komponente, um verschiedene Produktinformationen zu präsentieren. Nutze eine
 Client-Island für die Tab-Logik.
 
 ### Schritte:
