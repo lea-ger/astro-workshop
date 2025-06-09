@@ -22,7 +22,7 @@ slideId: 9
 └── package.json
 ```
 
-### Wichtige Verzeichnisse {#custom-id}
+### Wichtige Verzeichnisse
 
 - **public/** - Dateien werden unverändert kopiert
 - **src/pages/** - Definiert Routen und Seiten

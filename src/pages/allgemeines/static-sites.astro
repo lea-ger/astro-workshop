@@ -1,35 +1,55 @@
 ---
 import Layout from "@/layouts/SlideLayout.astro";
+import shopSearch from "@/assets/shop-search.png";
+import {Image} from "astro:assets";
 ---
 
 <Layout next="/allgemeines/generators" prev="/allgemeines/webframework-paradigmen" slideId="2">
     <h1>Static site generation</h1>
 
-    <p data-step="1">
+    <p>
         Der Server generiert HTML-Dateien in der Build-Zeit, die dann direkt
-        ausgeliefert werden.ö
+        ausgeliefert werden.
     </p>
 
-    <div class="grid grid-cols-2 my-8">
-        <div class="!text-xl flex flex-col items-center" data-step="2">
-            <p><strong>Vorteile</strong></p>
-            <ul data-step="3">
-                <li>Schnelle Ladezeiten</li>
-                <li>SEO-freundlich</li>
-                <li>Einfache Bereitstellung</li>
-            </ul>
+    <div class="flex gap-4">
+        <div class="grid grid-cols-2 my-8">
+            <div class="!text-xl flex flex-col items-center pr-8" data-step>
+                <h3><strong>Vorteile</strong></h3>
+                <ul>
+                    <li><strong>Schnelle Ladezeiten</strong>, da die Seiten bereits als HTML-Dateien vorliegen.
+                    </li>
+                    <li class="mt-4"><strong>SEO-freundlich</strong>, weil die Seiten sehr gut performen und Suchmaschinen solche Seiten
+                        präferieren.
+                    </li>
+                    <li class="mt-4"><strong>Einfache Bereitstellung</strong>, da nur HTML-Dateien ausgeliefert werden müssen.
+                    </li>
+                </ul>
+            </div>
+            <div class="!text-xl flex flex-col items-center border-l-2 pl-8" data-step>
+                <h3><strong>Nachteile</strong></h3>
+                <ul>
+                    <li><strong>Keine dynamischen Inhalte</strong> ohne zusätzliche Tools oder Workarounds.</li>
+                    <li><strong>Lange Build-Zeiten</strong> bei großen Seiten, weil jede einzelne Seite im Vorfeld generiert werden
+                        muss.
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="!text-xl flex flex-col items-center border-l-2 pl-8" data-step="4">
-            <p><strong>Nachteile</strong></p>
-            <ul data-step="5">
-                <li>Keine dynamischen Inhalte ohne zusätzliche Tools</li>
-                <li>Längere Build-Zeiten bei großen Seiten</li>
-            </ul>
+        <div data-step class="w-80">
+            <Image
+              src={shopSearch}
+              loading="lazy"
+              width={500}
+              height={500}
+              alt="Shop Suche"
+              class="w-80"
+            />
         </div>
     </div>
 
-    <p data-step="6">
-        Static Seiten sind daher ideal für Blogs, Dokumentationen und Marketing-Seiten oder Landing Pages, wo Inhalte
+    <p data-step class="mt-8">
+        -> Static Seiten sind daher am besten geeignet für Blogs, Dokumentationen und Marketing-Seiten oder Landing Pages, wo Inhalte
         selten aktualisiert werden müssen.
     </p>
 </Layout>
