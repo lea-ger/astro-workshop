@@ -1,0 +1,26 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+---
+
+<Layout next="/how-to-astro/ssr/node-adapter" prev="/how-to-astro/ssr-2" slideId="23">
+    <h1>SSR Adapter in Astro</h1>
+    <p>
+        Astro unterstützt verschiedene <strong>SSR Adapter</strong>, um serverseitiges Rendering auf unterschiedlichen Plattformen und Infrastrukturen zu ermöglichen.
+    </p>
+    <div data-step>
+      <p>Folgende Adapter stellt Astro offiziell bereit:</p>
+      <ul>
+          <li><strong>Node.js</strong> (<code>@astrojs/node</code>)</li>
+          <li><strong>Vercel</strong> (<code>@astrojs/vercel</code>)</li>
+          <li><strong>Netlify</strong> (<code>@astrojs/netlify</code>)</li>
+          <li><strong>Cloudflare</strong> (<code>@astrojs/cloudflare</code>)</li>
+      </ul>
+    </div>
+    <iframe
+        data-step
+        src="https://docs.astro.build/de/guides/server-side-rendering/#adapter"
+        class="w-full h-[40vh] border-2 border-purple-500 rounded-lg mt-4"
+        frameborder="0"
+        allowfullscreen
+    />
+</Layout>

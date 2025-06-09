@@ -1,0 +1,45 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+---
+
+<Layout next="/how-to-astro/ssr/adapter" prev="/how-to-astro/ssr-2" slideId="23">
+    <h1>Server Islands in Astro</h1>
+    <p>
+        <strong>Server Islands</strong> sind ein neues Feature in Astro (ab v4), das es ermöglicht, einzelne Komponenten serverseitig zu rendern – auch wenn die Seite ansonsten statisch oder als SPA ausgeliefert wird.
+    </p>
+    <div class="grid grid-cols-2 gap-8 mt-8">
+        <div data-step>
+            <h3>Was sind Server Islands?</h3>
+            <ul>
+                <li>Serverseitig gerenderte Komponenten in einer ansonsten statischen Seite</li>
+                <li>Ideal für dynamische, personalisierte oder geschützte UI-Bereiche</li>
+                <li>Kein JavaScript für die Insel selbst auf dem Client nötig</li>
+                <li>Beispiel: Auth-Status, personalisierte Empfehlungen, A/B-Tests</li>
+            </ul>
+        </div>
+        <div data-step>
+            <h3>Beispiel: Server Island</h3>
+            <pre><code>{`---
+import UserGreeting from '../components/UserGreeting.astro';
+---
+
+<UserGreeting client:only="server" />
+`}</code></pre>
+            <p class="mt-2 text-sm text-gray-300">Mit <code>client:only="server"</code> wird die Komponente immer auf dem Server gerendert, unabhängig vom Seitenmodus.</p>
+        </div>
+    </div>
+    <div class="mt-8" data-step>
+        <h3>Vorteile</h3>
+        <ul>
+            <li>Datenschutz: Keine sensiblen Daten im Client-Bundle</li>
+            <li>SEO: Dynamische Inhalte sind sofort im HTML</li>
+            <li>Performance: Nur gezielte Bereiche werden serverseitig aktualisiert</li>
+            <li>Flexibilität: Kombinierbar mit klassischen Islands und SSR</li>
+        </ul>
+    </div>
+    <div class="mt-8 text-sm text-gray-400">
+        <a href="https://docs.astro.build/de/guides/server-side-rendering/#server-islands" target="_blank" rel="noopener noreferrer">
+            Mehr zu Server Islands in der Astro-Dokumentation
+        </a>
+    </div>
+</Layout>

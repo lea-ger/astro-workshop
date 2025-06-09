@@ -1,0 +1,76 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+import { Code } from 'astro:components';
+---
+
+<Layout next="/how-to-astro/ssr/adapter" prev="/how-to-astro/ssr" slideId="22">
+    <h1>Server-Side Rendering (SSR) - Anwendung</h1>
+
+    <div class="grid grid-cols-3 gap-8 mt-8">
+        <div data-step>
+            <h3>SSR aktivieren</h3>
+            <Code code={`
+// astro.config.mjs
+import { defineConfig } from 'astro/config';
+import node from '@astrojs/node';
+
+export default defineConfig({
+  output: 'server',  // 'static' (Standard) oder 'server'
+  
+  adapter: node({
+    mode: 'standalone' // oder 'middleware'
+  }),
+});
+            `} lang="javascript" />
+        </div>
+        <div data-step>
+            <h3 class="mt-6">Dynamische Routen mit SSR</h3>
+            <Code code={`
+---
+// src/pages/[...slug].astro
+
+// Keine getStaticPaths() nötig bei SSR!
+const { slug } = Astro.params;
+
+// Zugriff auf Request-Daten
+const userAgent = Astro.request.headers.get('user-agent');
+const referer = Astro.request.headers.get('referer');
+const ip = Astro.clientAddress;
+
+// Cookies lesen/setzen
+const cookies = Astro.cookies;
+const theme = cookies.get('theme')?.value || 'light';
+cookies.set('visited', 'true', { path: '/' });
+---
+
+<h1>Dynamische Seite: {slug}</h1>
+<p>Dein Theme: {theme}</p>
+            `} lang="astro" />
+        </div>
+        <div data-step>
+            <h3 class="mt-6">Redirect & Response API</h3>
+            <Code code={`
+// Umleitung
+if (!isLoggedIn) {
+  return Astro.redirect('/login');
+}
+
+// Benutzerdefinierte Response
+if (Astro.request.method === 'POST') {
+  const data = await Astro.request.formData();
+  
+  // Daten verarbeiten...
+  
+  return new Response(JSON.stringify(
+  { success: true }
+  ), {
+    status: 200,
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
+}
+            `} lang="javascript" />
+        </div>
+    </div>
+</Layout>

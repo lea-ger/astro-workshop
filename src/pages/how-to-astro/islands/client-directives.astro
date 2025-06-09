@@ -3,75 +3,35 @@ import Layout from "@/layouts/SlideLayout.astro";
 import { Code } from 'astro:components';
 ---
 
-<Layout next="/how-to-astro/images" prev="/how-to-astro/islands/frameworks" slideId="14.2">
+<Layout next="/how-to-astro/images" prev="/how-to-astro/islands/frameworks" slideId="17">
     <h1>Client Directives</h1>
 
-    <p>Client Directives sind spezielle Attribute, die steuern, <strong>wann und wie</strong> eine Komponente im Browser hydratisiert werden soll.</p>
+    <p>Client Directives sind spezielle Attribute, die steuern, <strong>wann und wie</strong> eine Komponente im Browser hydriert werden soll.</p>
 
-    <div class="grid grid-cols-2 gap-8 mt-8">
+    <div class="grid gap-8 mt-8" data-step>
         <div>
             <h3>Verfügbare Direktiven</h3>
-            <ul>
+            <ul class="text-xl">
                 <li>
-                    <code>client:load</code> - Sofort nach dem Laden der Seite hydratisieren
-                    <div class="text-sm text-gray-300 ml-6">Für kritische UI-Elemente, die sofort interaktiv sein müssen</div>
+                    <code>client:load</code> - Sofort nach dem Laden der Seite hydrieren
+                    <div class="text-lg text-gray-300 ml-6">Für kritische UI-Elemente, die sofort interaktiv sein müssen</div>
                 </li>
-                <li class="mt-2">
+                <li class="mt-6" data-step>
                     <code>client:idle</code> - Hydratisieren, wenn der Browser im Leerlauf ist
-                    <div class="text-sm text-gray-300 ml-6">Für wichtige, aber nicht kritische Interaktionen</div>
+                    <div class="text-lg text-gray-300 ml-6">Für wichtige, aber nicht kritische Interaktionen</div>
                 </li>
-                <li class="mt-2">
+                <li class="mt-6" data-step>
                     <code>client:visible</code> - Hydratisieren, wenn die Komponente sichtbar wird
-                    <div class="text-sm text-gray-300 ml-6">Für Komponenten, die erst beim Scrollen ins Sichtfeld kommen</div>
+                    <div class="text-lg text-gray-300 ml-6">Für Komponenten, die erst beim Scrollen ins Sichtfeld kommen</div>
                 </li>
-                <li class="mt-2">
+                <li class="mt-6" data-step>
                     <code>client:media="(max-width: 768px)"</code> - Bei Media-Query-Übereinstimmung
-                    <div class="text-sm text-gray-300 ml-6">Für responsive Komponenten, die nur auf bestimmten Geräten interaktiv sein müssen</div>
+                    <div class="text-lg text-gray-300 ml-6">Für responsive Komponenten, die nur auf bestimmten Geräten interaktiv sein müssen</div>
                 </li>
-                <li class="mt-2">
+                <li class="mt-6" data-step>
                     <code>client:only="react"</code> - Nur clientseitig rendern (kein SSR)
-                    <div class="text-sm text-gray-300 ml-6">Für Komponenten, die auf Browser-APIs angewiesen sind</div>
+                    <div class="text-lg text-gray-300 ml-6">Für Komponenten, die auf Browser-APIs angewiesen sind</div>
                 </li>
-            </ul>
-        </div>
-        <div>
-            <h3>Live Demo</h3>
-            <div class="border border-purple-500 rounded-lg p-4 bg-purple-900/30">
-                <Code code={`
-// InteractiveDemo.jsx (React)
-import { useState } from 'react';
-
-export default function InteractiveDemo() {
-  const [count, setCount] = useState(0);
-  
-  return (
-    <div className="demo">
-      <p>Zähler: {count}</p>
-      <button onClick={() => setCount(count + 1)}>
-        Erhöhen
-      </button>
-    </div>
-  );
-}
-
-// Verwendung in Astro:
-// <InteractiveDemo client:visible />
-                `} lang="jsx" />
-                
-                <div class="mt-4 p-4 bg-gray-800 rounded">
-                    <p class="text-center">Hier würde die interaktive Komponente erscheinen</p>
-                    <p class="text-center text-sm text-gray-400 mt-2">
-                        (In einer Live-Präsentation könnte hier eine echte interaktive Komponente eingebunden werden)
-                    </p>
-                </div>
-            </div>
-            
-            <h3 class="mt-6">Leistungsvergleich</h3>
-            <p>Vergleich der Ladezeiten und JavaScript-Größe mit verschiedenen Direktiven:</p>
-            <ul>
-                <li><strong>client:load</strong> - Schnelle Interaktivität, aber größere initiale Last</li>
-                <li><strong>client:idle</strong> - Bessere Lighthouse-Scores, verzögerte Interaktivität</li>
-                <li><strong>client:visible</strong> - Optimale Performance, JS wird nur bei Bedarf geladen</li>
             </ul>
         </div>
     </div>

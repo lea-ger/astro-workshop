@@ -1,0 +1,19 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+---
+
+<Layout next="/workshop" prev="/how-to-astro/plugins" slideId="99">
+    <h1>Weitere Features von Astro</h1>
+    <ul class="list-disc ml-8 mt-8 space-y-4">
+        <li data-step><strong>i18n (Internationalisierung):</strong> Mehrsprachige Seiten und Lokalisierung mit Integrationen wie <code>@astrojs/i18n</code> oder Community-Plugins.</li>
+        <li data-step><strong>Middleware:</strong> Serverseitige Middleware für Routing, Authentifizierung, Weiterleitungen und mehr (z.B. <code>src/middleware.ts</code>).</li>
+        <li data-step><strong>Actions:</strong> Serverseitige Logik für Formulare und Interaktionen direkt in Astro-Komponenten (ähnlich zu Next.js Actions).</li>
+        <li data-step><strong>Astro DB:</strong> Integrierte, typisierte Datenbank für Content und dynamische Daten (ab Astro 4.0, Beta).</li>
+        <li data-step><strong>Authentication:</strong> Authentifizierungs-Integrationen und eigene Lösungen für geschützte Bereiche und SSR.</li>
+    </ul>
+    <div class="mt-8 text-sm text-gray-400">
+        <a href="https://docs.astro.build/de/guides/" target="_blank" rel="noopener noreferrer">
+            Mehr zu diesen und weiteren Features in der Astro-Dokumentation
+        </a>
+    </div>
+</Layout>

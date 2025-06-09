@@ -1,0 +1,83 @@
+---
+import Layout from "@/layouts/SlideLayout.astro";
+import {Code} from 'astro:components';
+---
+
+<Layout next="/how-to-astro/ssr" prev="/how-to-astro/collections" slideId="20">
+    <h1>Content Collections - Anwendung</h1>
+
+    <div class="grid grid-cols-2 gap-8 mt-8" data-step>
+        <div>
+            <h3>Einrichtung</h3>
+            <Code code={`
+// src/content/config.ts
+import { defineCollection, z } from 'astro:content';
+
+// Schema für Blog-Beiträge definieren
+const blogCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    date: z.date(),
+    author: z.string(),
+    tags: z.array(z.string()).optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+// Schema für Produkte definieren
+const productsCollection = defineCollection({
+  schema: z.object({
+    name: z.string(),
+    price: z.number(),
+    image: z.string(),
+  }),
+});
+
+// Alle Collections exportieren
+export const collections = {
+  'blog': blogCollection,
+  'products': productsCollection,
+};
+            `} lang="typescript"/>
+
+            <p class="mt-4">Astro verwendet <a href="https://zod.dev/" target="_blank">Zod</a> für die
+                Schema-Validierung.</p>
+        </div>
+        <div data-step>
+            <h3>Verwendung in Komponenten</h3>
+            <Code code={`
+---
+// Importieren der Hilfsfunktionen
+import { getCollection, getEntry } from 'astro:content';
+
+// Alle Blog-Beiträge abrufen (typsicher!)
+const allBlogPosts = await getCollection('blog');
+
+// Nur veröffentlichte Beiträge filtern
+const publishedPosts = allBlogPosts.filter(
+  post => !post.data.draft
+);
+
+// Einzelnen Eintrag abrufen
+const featuredPost = await getEntry('blog', 'featured-post');
+---
+<div>
+    <h2>Neueste Beiträge</h2>
+    <ul>
+      {publishedPosts.map(post => (
+        <li>
+          <h3>
+            {post.data.title}
+          </h3>
+          <time>{post.data.date.toLocaleDateString()}</time>
+        </li>
+      ))}
+    </ul>
+</div>
+`} lang="astro"
+            />
+
+
+        </div>
+    </div>
+</Layout>
