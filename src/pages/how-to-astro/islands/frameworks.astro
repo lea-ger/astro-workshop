@@ -25,8 +25,7 @@ npm install @astrojs/solid-js solid-js
         </div>
         <div data-step>
             <h3>2. Konfiguration</h3>
-            <Code code={`
-// astro.config.mjs
+            <Code code={`// astro.config.mjs
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import vue from '@astrojs/vue';
@@ -41,14 +40,11 @@ export default defineConfig({
     solid(),
     ... // weitere Integrationen hier hinzufügen
   ]
-});
-            `} lang="javascript"/>
+});`} lang="javascript"/>
         </div>
         <div data-step>
             <h3>Verwendung in Astro-Dateien</h3>
-            <Code code={`
----
-// Komponenten aus verschiedenen Frameworks importieren
+            <Code code={`---
 import ReactCounter from '../components/ReactCounter.jsx';
 import VueToggle from '../components/VueToggle.vue';
 import SvelteCard from '../components/SvelteCard.svelte';
@@ -56,7 +52,6 @@ import SolidButton from '../components/SolidButton.jsx';
 ---
 
 <div class="mixed-frameworks">
-  <!-- Jedes Framework mit eigener Hydration-Strategie -->
   <ReactCounter client:load />
   
   <VueToggle client:visible />
@@ -64,8 +59,7 @@ import SolidButton from '../components/SolidButton.jsx';
   <SvelteCard client:idle />
   
   <SolidButton client:only="solid" />
-</div>
-            `} lang="astro"/>
+</div>`} lang="astro"/>
         </div>
     </div>
 
