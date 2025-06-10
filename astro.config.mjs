@@ -9,11 +9,9 @@ import mdx from "@astrojs/mdx";
 
 import react from "@astrojs/react";
 
-import vue from "@astrojs/vue";
-
 // https://astro.build/config
 export default defineConfig({
-    integrations: [icon(), mdx(), react(), vue()],
+    integrations: [icon(), mdx(), react()],
 
     vite: {
         plugins: [tailwindcss()],
