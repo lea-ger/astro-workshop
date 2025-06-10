@@ -23,7 +23,7 @@ export default defineConfig({
     },
 
     image: {
-        domains: ["astro.build", "placecats.com"],
+        domains: ["astro.build", "placecats.com", "placehold.co"],
     },
 
     adapter: node({
