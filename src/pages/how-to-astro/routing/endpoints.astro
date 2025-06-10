@@ -12,23 +12,17 @@ import {Code} from 'astro:components';
     <div class="grid grid-cols-2 gap-8 mt-8">
         <div data-step>
             <h3>Einfacher API-Endpunkt</h3>
-            <Code code={`
-// src/pages/api/hello.js
+            <Code code={`// src/pages/api/hello.js
 export async function get() {
   return {
-    body: JSON.stringify({
-      message: "Hallo von Astro!"
-    })
+    body: JSON.stringify({ message: "Hallo von Astro!" })
   };
-}
-            `} lang="javascript"/>
+}`} lang="javascript"/>
 
             <h3 class="mt-6">Dynamische API-Routen</h3>
-            <Code code={`
-// src/pages/api/[id].js
+            <Code code={`// src/pages/api/[id].js
 export async function get({ params }) {
-  const { id } = params;
-  
+  const { id } = params;  
   return {
     body: JSON.stringify({
       id,
@@ -42,8 +36,7 @@ export function getStaticPaths() {
     { params: { id: '1' } },
     { params: { id: '2' } }
   ];
-}
-            `} lang="javascript"/>
+}`} lang="javascript"/>
         </div>
         <div data-step>
             <h3>Funktionen</h3>
@@ -73,9 +66,6 @@ export async function post({ request }) {
   };
 }
             `} lang="javascript"/>
-
-                <p class="mt-4">Ähnlich zu Express.js-Handlern oder Next.js API-Routen, aber mit Astro-spezifischer
-                    Syntax.</p>
             </div>
         </div>
     </div>
